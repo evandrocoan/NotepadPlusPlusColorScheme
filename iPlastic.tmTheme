@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
+<plist version="2.0">
 <dict>
 	<key>author</key>
-	<string>Jeroen van der Ham</string>
+	<string>Jeroen van der Ham/Addons zz</string>
 	<key>name</key>
 	<string>iPlastic</string>
 	<key>settings</key>
@@ -133,6 +133,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#3C802C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>doccomment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#248591</string>
 			</dict>
 		</dict>
 		<dict>
