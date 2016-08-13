@@ -44,7 +44,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#0090FF</string>
+				<string>#FF8000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -114,7 +114,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c47200</string>
+				<string>#804000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -184,7 +184,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#0000FF</string>
+				<string>#F02A1D</string>
 			</dict>
 		</dict>
 		<dict>
