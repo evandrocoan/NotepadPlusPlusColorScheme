@@ -342,17 +342,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Normal Variable</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#000000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Function Call</string>
 			<key>scope</key>
 			<string>meta.function-call</string>
