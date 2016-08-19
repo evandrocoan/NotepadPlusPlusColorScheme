@@ -73,6 +73,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Macro</string>
+			<key>scope</key>
+			<string>macro</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#804000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Class Variable</string>
 			<key>scope</key>
 			<string>variable.other, variable.js, punctuation.separator.variable</string>
@@ -114,7 +125,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#804000</string>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -176,15 +187,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Keyword Operator</string>
+			<string>Preprocessor</string>
 			<key>scope</key>
-			<string>keyword.operator, declaration.function.operator, meta.preprocessor.c.include</string>
+			<string>preprocessor</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>foreground</key>
-				<string>#F02A1D</string>
+				<string>#804000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -321,10 +330,8 @@
 			<string>constant.character, constant.other</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#916319</string>
+				<string>#808080</string>
 			</dict>
 		</dict>
 		<dict>
@@ -347,8 +354,6 @@
 			<string>meta.function-call</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>foreground</key>
 				<string>#0000FF</string>
 			</dict>
