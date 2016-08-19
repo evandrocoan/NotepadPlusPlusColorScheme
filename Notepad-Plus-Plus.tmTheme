@@ -73,6 +73,18 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Operator</string>
+            <key>scope</key>
+            <string>operator</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+                <key>foreground</key>
+                <string>#000080</string>
+            </dict>
+        </dict>        <dict>
+            <key>name</key>
             <string>Macro</string>
             <key>scope</key>
             <string>macro</string>
