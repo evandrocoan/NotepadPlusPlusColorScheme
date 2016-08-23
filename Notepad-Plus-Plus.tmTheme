@@ -60,9 +60,9 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Keyword</string>
+            <string>Keyword Common</string>
             <key>scope</key>
-            <string>keyword</string>
+            <string>keyword.common, keyword.control</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -73,9 +73,9 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Operator</string>
+            <string>Keyword Operator</string>
             <key>scope</key>
-            <string>keyword.operator</string>
+            <string>keyword.operator, punctuation.definition.group</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -83,28 +83,16 @@
                 <key>foreground</key>
                 <string>#000080</string>
             </dict>
-        </dict>        <dict>
-            <key>name</key>
-            <string>Macro</string>
-            <key>scope</key>
-            <string>macro</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#804000</string>
-            </dict>
         </dict>
         <dict>
             <key>name</key>
-            <string>Class Variable</string>
+            <string>Keyword Other</string>
             <key>scope</key>
-            <string>variable.other, variable.js, punctuation.separator.variable</string>
+            <string>keyword.other</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>bold</string>
                 <key>foreground</key>
-                <string>#000000</string>
+                <string>#000080</string>
             </dict>
         </dict>
         <dict>
@@ -122,7 +110,7 @@
             <key>name</key>
             <string>Exception</string>
             <key>scope</key>
-            <string>support.class.exception</string>
+            <string>class.exception</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -133,7 +121,7 @@
             <key>name</key>
             <string>Function name</string>
             <key>scope</key>
-            <string>entity.name.function</string>
+            <string>function.name</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -142,13 +130,13 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Type name</string>
+            <string>Function Call</string>
             <key>scope</key>
-            <string>entity.name.type</string>
+            <string>function.call</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>bold underline</string>
+                <key>foreground</key>
+                <string>#750000</string>
             </dict>
         </dict>
         <dict>
@@ -212,7 +200,7 @@
             <key>name</key>
             <string>Meta Brace</string>
             <key>scope</key>
-            <string>punctuation.section.embedded -(source string source punctuation.section.embedded), meta.brace.erb.html</string>
+            <string>punctuation.section.embedded -(source string source punctuation.section.embedded), brace.erb.html</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -247,7 +235,7 @@
             <key>name</key>
             <string>Tag</string>
             <key>scope</key>
-            <string>meta.tag, declaration.tag</string>
+            <string>tag, declaration.tag</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -258,7 +246,7 @@
             <key>name</key>
             <string>Constant</string>
             <key>scope</key>
-            <string>constant, support.constant</string>
+            <string>constant</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -272,10 +260,8 @@
             <string>support</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>bold</string>
                 <key>foreground</key>
-                <string>#3333FF</string>
+                <string>#006000</string>
             </dict>
         </dict>
         <dict>
@@ -293,7 +279,7 @@
             <key>name</key>
             <string>Class name</string>
             <key>scope</key>
-            <string>entity.name.class</string>
+            <string>class.name</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -302,33 +288,9 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Section name</string>
-            <key>scope</key>
-            <string>entity.name.section</string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string>bold underline</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Frame title</string>
-            <key>scope</key>
-            <string>entity.name.function.frame</string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string>bold</string>
-                <key>foreground</key>
-                <string>#000000</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
             <string>XML Declaration</string>
             <key>scope</key>
-            <string>meta.tag.preprocessor.xml</string>
+            <string>tag.preprocessor.xml</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -353,45 +315,21 @@
             <string>variable</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>bold</string>
                 <key>foreground</key>
                 <string>#000000</string>
             </dict>
         </dict>
         <dict>
             <key>name</key>
-            <string>Function Call</string>
-            <key>scope</key>
-            <string>meta.function-call</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#0000FF</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
             <string>Tag Attribute</string>
             <key>scope</key>
-            <string>entity.other.attribute-name</string>
+            <string>other.attribute-name</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
                 <string>#3366CC</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Tag Name</string>
-            <key>scope</key>
-            <string>entity.name.tag</string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string>bold</string>
             </dict>
         </dict>
     </array>

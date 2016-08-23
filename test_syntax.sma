@@ -12,13 +12,43 @@ new const PLUGIN_VERSION[] = "v3.2.2-259";
  * Change this value from 0 to 1, to use the Whitelist feature as a Blacklist feature.
  */
 #define IS_TO_USE_BLACKLIST_INSTEAD_OF_WHITELIST 0
+not match this
+
+/**
+ * Convert colored strings codes '!g for green', '!y for yellow', '!t for team'.
+ *
+ * @param string[]       a string pointer to be converted.
+ */
+#define INSERT_COLOR_TAGS(%1) \
+{ \
+    replace_all( %1, charsmax( %1 ), "!g", "^4" ); \
+    replace_all( %1, charsmax( %1 ), "!t", "^3" ); \
+    replace_all( %1, charsmax( %1 ), "!n", "^1" ); \
+    replace_all( %1, charsmax( %1 ), "!y", "^1" ); \
+}
+not match this
 
 stock hi()
 {
+    colored_menus();
+    
+    if( colored_menus() )
+    {
+        copy( COLOR_RED, 2, "\r" );
+        copy( COLOR_WHITE, 2, "\w" );
+        copy( COLOR_YELLOW, 2, "\y" );
+        copy( COLOR_GREY, 2, "\d" );
+    }
+    
+    color_print( 0, "%Lggggg %L",
+            LANG_PLAYER, "GAL_CHANGE_TIMEEXPIRED", LANG_PLAYER, "GAL_NEXTMAP", g_nextMap );
+    
     {
         color_print( 0, "%Lggggg %L",
                 LANG_PLAYER, "GAL_CHANGE_TIMEEXPIRED", LANG_PLAYER, "GAL_NEXTMAP", g_nextMap );
     }
+    
+    colored_menus();
     
     if( colored_menus() )
     {
@@ -43,19 +73,6 @@ stock hi()
 //
 
 /**
- * Convert colored strings codes '!g for green', '!y for yellow', '!t for team'.
- *
- * @param string[]       a string pointer to be converted.
- */
-#define INSERT_COLOR_TAGS(%1) \
-{ \
-    replace_all( %1, charsmax( %1 ), "!g", "^4" ); \
-    replace_all( %1, charsmax( %1 ), "!t", "^3" ); \
-    replace_all( %1, charsmax( %1 ), "!n", "^1" ); \
-    replace_all( %1, charsmax( %1 ), "!y", "^1" ); \
-}
-
-/**
  * Dummy value used on conditional statements to allow statements as always true or false.
  */
 new const bool:g_dummy_value = false;
@@ -71,11 +88,13 @@ new const bool:g_dummy_value = false;
         copy( %2, charsmax( %2 ), "Unknown Dude" ); \
     } \
 }
+not match this
 
 /**
  * Setup the debugging tools when they are used/necessary.
  */
 #if DEBUG_LEVEL & DEBUG_LEVEL_UNIT_TEST_NORMAL
+not match this
     
     /**
      * Contains all imediates unit tests to execute.
@@ -182,19 +201,30 @@ public plugin_init()
     cvar_isExtendmapOrderAllowed = register_cvar( "amx_extendmap_allow_order", "0" );
     cvar_extendmapAllowStayType  = register_cvar( "amx_extendmap_allow_stay_type", "0" );
     cvar_disabledValuePointer    = register_cvar( "gal_disabled_value_pointer", "0", FCVAR_SPONLY );
-    cvar_isFirstServerStart      = register_cvar( "gal_server_starting", "1", FCVAR_SPONLY );
+    cvar_isFirstServerStart      = register_cvar
+                                                ( "gal_server_starting", "1", FCVAR_SPONLY );
 }
 
-stock configureServerStart()
+configureServerStart( )
 {
     LOGGER( 128, "I AM ENTERING ON configureServerStart(0)" )
+}
+
+stock configureServerStart(
+                               )
+{
+    LOGGER
+    ( 128, "I AM ENTERING ON configureServerStart(0)" )
     
-    if( get_pcvar_num( cvar_gameCrashRecreationAction ) )
+    LOGGER( 128, "I AM ENTERING ON configureServerStart(0)" )
+    
+    if( __get_pcvar_num
+                       ( __cvar_gameCrashRecreationAction, get_pcvar_num( cvar_isFirstServerStart) ) )
     {
         g_isToCreateGameCrashFlag = true;
     }
     
-    if( get_pcvar_num( cvar_isFirstServerStart ) )
+    if( get_pcvar_num( cvar_isFirstServerStart) )
     {
         new backupMapsFilePath[ MAX_FILE_PATH_LENGHT ];
         formatex( backupMapsFilePath, charsmax( backupMapsFilePath ), "%s/%s", g_dataDirPath, CURRENT_AND_NEXTMAP_FILE_NAME );
@@ -224,15 +254,6 @@ stock configureServerStart()
         new gameCrashActionFilePath[ MAX_FILE_PATH_LENGHT ];
         g_isToCreateGameCrashFlag = false; // stop creating this file unnecessarily
         
-        LOGGER( 1, "( vote_manageEnd )  %d/%d < %d: %d", \
-                g_timeLimitNumber, SERVER_GAME_CRASH_ACTION_RATIO_DIVISOR, g_timeLimitNumber - secondsLeft / 60, \
-                g_timeLimitNumber / SERVER_GAME_CRASH_ACTION_RATIO_DIVISOR < g_timeLimitNumber - secondsLeft / 60)
-        LOGGER( 1, "( vote_manageEnd )  %d/%d < %d: %d", \
-                g_fragLimitNumber, SERVER_GAME_CRASH_ACTION_RATIO_DIVISOR, g_greatestKillerFrags, \
-                g_fragLimitNumber / SERVER_GAME_CRASH_ACTION_RATIO_DIVISOR < g_greatestKillerFrags )
-        LOGGER( 1, "( vote_manageEnd )  %d/%d < %d: %d", \
-                g_maxRoundsNumber, SERVER_GAME_CRASH_ACTION_RATIO_DIVISOR, g_roundsPlayedNumber + 1, \
-                g_maxRoundsNumber / SERVER_GAME_CRASH_ACTION_RATIO_DIVISOR < g_roundsPlayedNumber + 1 )
         LOGGER( 1, "( vote_manageEnd )  %d/%d < %d: %d", \
                 g_winLimitInteger, SERVER_GAME_CRASH_ACTION_RATIO_DIVISOR, g_totalTerroristsWins + g_totalCtWins, \
                 g_winLimitInteger / SERVER_GAME_CRASH_ACTION_RATIO_DIVISOR < g_totalTerroristsWins + g_totalCtWins )
