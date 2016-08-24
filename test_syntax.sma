@@ -64,12 +64,11 @@ stock hi()
       && get_pcvar_num( cvar_nomMinPlayersControl ) \
       && get_pcvar_num( cvar_nomMinPlayersControl ) \
       && get_pcvar_num( cvar_nomMinPlayersControl ) )
+not match this
 
-stock hi()
-{
+stock hiddddddddddddddddddddd()
     color_print( 0, "%L %L",
             LANG_PLAYER, "GAL_CHANGE_TIMEEXPIRED", LANG_PLAYER, "GAL_NEXTMAP", g_nextMap );
-}
 //
 
 /**
@@ -100,7 +99,7 @@ not match this
      * Contains all imediates unit tests to execute.
      */
     stock normalTestsToExecute()
-    {
+    { 
         test_registerTest();
         test_isInEmptyCycle();
         test_mapGetNext_cases();
@@ -205,12 +204,24 @@ public plugin_init()
                                                 ( "gal_server_starting", "1", FCVAR_SPONLY );
 }
 
-configureServerStart( )
-{
-    LOGGER( 128, "I AM ENTERING ON configureServerStart(0)" )
-}
+#define GET_USER_NAME(%1,%2)
+not match this
 
-stock configureServerStart(
+/**
+ * Setup the debugging tools when they are used/necessary.
+ */
+#if DEBUG_LEVEL & DEBUG_LEVEL_UNIT_TEST_NORMAL
+not match this
+
+configureServerStart( )
+    LOGGER( 128, "I AM ENTERING ON configureServerStart(0)" )
+
+configureServerStart( )
+    LOGGER( 128, "I AM ENTERING ON configureServerStart(0)" )
+
+
+stock configureServerStart
+(
                                )
 {
     LOGGER

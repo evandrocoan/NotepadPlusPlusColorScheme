@@ -75,7 +75,7 @@
             <key>name</key>
             <string>Keyword Operator</string>
             <key>scope</key>
-            <string>keyword.operator, punctuation.definition.group</string>
+            <string>keyword.operator, keyword.brackets</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -93,6 +93,17 @@
             <dict>
                 <key>foreground</key>
                 <string>#000080</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Keyword Other</string>
+            <key>scope</key>
+            <string>function.definition</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#000060</string>
             </dict>
         </dict>
         <dict>
