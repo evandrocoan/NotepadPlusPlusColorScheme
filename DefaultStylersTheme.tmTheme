@@ -13,6 +13,12 @@
             <dict>
                 <key>background</key>
                 <string>#FFFFFF</string>
+                <key>guide</key>
+                <string>#8c8c8c</string>
+                <key>stackGuide</key>
+                <string>#8c8c8c</string>
+                <key>activeGuide</key>
+                <string>#FF0000</string>
                 <key>caret</key>
                 <string>#000000</string>
                 <key>foreground</key>
