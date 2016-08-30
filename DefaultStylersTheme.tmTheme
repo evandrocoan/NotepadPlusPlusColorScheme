@@ -66,9 +66,20 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Meta Tag</string>
+            <key>scope</key>
+            <string>meta.tag</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF0000</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Keyword Common</string>
             <key>scope</key>
-            <string>keyword.common, keyword.control</string>
+            <string>keyword.common, keyword.control, entity.name, punctuation.definition.tag</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -217,7 +228,7 @@
             <key>name</key>
             <string>Meta Brace</string>
             <key>scope</key>
-            <string>punctuation.section.embedded -(source string source punctuation.section.embedded), brace.erb.html</string>
+            <string>punctuation.section.embedded, brace.html</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
