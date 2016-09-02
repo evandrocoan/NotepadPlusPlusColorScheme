@@ -90,6 +90,19 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Keyword Common</string>
+            <key>scope</key>
+            <string>punctuation.definition.block</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+                <key>foreground</key>
+                <string>#800000</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Keyword Operator</string>
             <key>scope</key>
             <string>keyword.operator, keyword.brackets</string>
