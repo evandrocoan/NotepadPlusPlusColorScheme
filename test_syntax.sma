@@ -69,7 +69,7 @@ not match this
 stock hiddddddddddddddddddddd()
     color_print( 0, "%L %L",
             LANG_PLAYER, "GAL_CHANGE_TIMEEXPIRED", LANG_PLAYER, "GAL_NEXTMAP", g_nextMap );
-//
+// not match this
 
 /**
  * Dummy value used on conditional statements to allow statements as always true or false.

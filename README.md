@@ -1,42 +1,51 @@
 Sublime 3 Notepad++ Theme
 ===============================
 
-For those who like <strong>the look & feel of Notepad++ but the awesomeness of Sublime Text</strong> &#10084;. then this is for you! Load together with Soda Theme (light) for the ultimate Sublime experience!
+For those who like <strong>the look & feel of Notepad++ but the awesomeness of Sublime Text</strong> &#10084;. 
+Then this is for you! 
 
-<img src="http://samdeering.com/img/sublime3-notepad-plus-plus.png" alt="look & feel of Notepad++" />
+![Imgur](http://i.imgur.com/iXk6Qpb.png)
 
-**1 Minute Setup**
+![Imgur](http://i.imgur.com/BXfaFSv.png)
+
+
+
+## Notes
+
+It only works well for the [Sublime Text AMXX Pawn Syntax](https://github.com/evandrocoan/SublimeAmxxPawn).
+
+
+
+## Installation
 
 1. Download & Install Sublime 3.
-2. Install Sublime Package Manager (https://sublime.wbond.net/installation)
-3. Add Soda Theme (https://github.com/buymeasoda/soda-theme)
-4. Go to <i>Preferences > Browse Packages...</i> and clone this theme into there (<i>~/AppData/Roaming/Sublime Text 3/Packages/</i>)
-4. Add the following into <i>Preferences > Settings > User</i>
+1. Install Sublime Package Manager (https://packagecontrol.io/installation)
+1. Go to <i>Preferences > Browse Packages...</i> and clone this theme into there.
 <pre><code>
-{
-       "autoIndent": true,
-       "color_scheme": "Packages/Theme - NotepadPlusPlus/Notepad-Plus-Plus.tmTheme",
-       "copyOnMouseSelect": false,
-       "drawWhiteSpace": "none",
-       "font_face": "Courier New",
-       "font_size": 10,
-       "gutter": true,
-       "highlightLine": true,
-       "rulers": false,
-       "tab_size": 4,
-       "translate_tabs_to_spaces": true,
-       "trim_trailing_white_space_on_save": true,
-       "use_tab_stops": true,
-       "wantVerticalScrollBar": false,
-       "theme": "Soda Light.sublime-theme",
-       "ignored_packages": ["Vintage"]
-}
+git clone https://github.com/evandrocoan/SublimeNotepadPlusPlusTheme SublimeNotepadPlusPlusTheme
 </code></pre>
-5. Restart Sublime
+1. Add the following into <i>Preferences > Settings > User</i>
+<pre><code>
+    "color_scheme": "Your Current Color Scheme"
+-->
+    "color_scheme": "Packages/SublimeNotepadPlusPlusTheme/DefaultStylersTheme.tmTheme"
+</code></pre>
+1. Restart Sublime
 
 
-Star &#9733; me!!! Enjoy =)
 
-Note: It's also compatiable with Sublime 2.
+## Soda Theme (light)
+
+Load together with [Soda Theme (light)](https://github.com/buymeasoda/soda-theme) for the ultimate Sublime experience!
+
+
+
+___
+## Licence
+All files in this repository are released under GNU General Public License v3.0, unless stated otherwise.
+See [LICENSE](https://www.gnu.org/licenses/gpl-3.0.en.html) file for more information.
+
+
+
 
 
