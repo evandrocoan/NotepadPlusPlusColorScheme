@@ -2,7 +2,7 @@ Sublime 3 Notepad++ Theme
 ===============================
 
 For those who like <strong>the look & feel of Notepad++ but the awesomeness of Sublime Text</strong> &#10084;. 
-Then this is for you! 
+Then this is for you! See a improved tutorial on [Sublime Text AMXX Pawn Syntax and Notepad++ Theme](https://forums.alliedmods.net/showthread.php?t=287196).
 
 ![Imgur](http://i.imgur.com/iXk6Qpb.png)
 
@@ -10,6 +10,7 @@ Then this is for you!
 
 
 
+___
 ## Notes
 
 It only works well for the [Sublime Text AMXX Pawn Syntax](https://github.com/evandrocoan/SublimeAmxxPawn).
@@ -31,7 +32,7 @@ git clone https://github.com/evandrocoan/SublimeNotepadPlusPlusTheme SublimeNote
     "color_scheme": "Packages/SublimeNotepadPlusPlusTheme/DefaultStylersTheme.tmTheme"
 </code></pre>
 1. Restart Sublime
-
+1. Not clear enough? See the full installation video guide [How To Install Sublime Notepad Theme](https://vid.me/DXOc).
 
 
 ## Soda Theme (light)
