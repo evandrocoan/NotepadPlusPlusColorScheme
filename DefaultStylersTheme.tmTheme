@@ -206,7 +206,7 @@
             <key>name</key>
             <string>Comment</string>
             <key>scope</key>
-            <string>doccomment</string>
+            <string>doccomment, punctuation.definition.doccomment, comment.line.triple-slash</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
