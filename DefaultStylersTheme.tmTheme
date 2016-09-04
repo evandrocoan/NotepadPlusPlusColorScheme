@@ -127,17 +127,6 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Keyword Other</string>
-            <key>scope</key>
-            <string>function.definition</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#000060</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
             <string>Identifier</string>
             <key>scope</key>
             <string>constant.language</string>
@@ -160,13 +149,13 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Function name</string>
+            <string>Function Definition</string>
             <key>scope</key>
-            <string>function.name</string>
+            <string>function.definition, function.name</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#000000</string>
+                <string>#000060</string>
             </dict>
         </dict>
         <dict>
@@ -239,7 +228,7 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Meta Brace</string>
+            <string>Brace</string>
             <key>scope</key>
             <string>punctuation.section.embedded, brace.html</string>
             <key>settings</key>
