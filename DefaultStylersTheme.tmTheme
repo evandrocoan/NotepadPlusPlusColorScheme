@@ -79,7 +79,7 @@
             <key>name</key>
             <string>Keyword Common</string>
             <key>scope</key>
-            <string>keyword.common, keyword.control, entity.name, punctuation.definition.tag</string>
+            <string>keyword.common, keyword.control, entity.name.tag, punctuation.definition.tag</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -151,22 +151,22 @@
             <key>name</key>
             <string>Function Definition</string>
             <key>scope</key>
-            <string>function.definition, function.name</string>
+            <string>function.definition, function.name, entity.name.function</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#000060</string>
+                <string>#000090</string>
             </dict>
         </dict>
         <dict>
             <key>name</key>
             <string>Function Call</string>
             <key>scope</key>
-            <string>function.call</string>
+            <string>function.call, keyword.analysis.matlab</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#750000</string>
+                <string>#600000</string>
             </dict>
         </dict>
         <dict>
@@ -346,7 +346,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#000000</string>
+                <string>#003000</string>
             </dict>
         </dict>
         <dict>
