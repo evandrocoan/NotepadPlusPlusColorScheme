@@ -68,7 +68,7 @@
             <key>name</key>
             <string>Meta Tag</string>
             <key>scope</key>
-            <string>meta.tag</string>
+            <string>meta.tag, markup.deleted</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -79,7 +79,7 @@
             <key>name</key>
             <string>Keyword Common</string>
             <key>scope</key>
-            <string>keyword.common, keyword.control, entity.name.tag, punctuation.definition.tag, keyword.desktop, keyword.mathematics</string>
+            <string>keyword.common, keyword.control, entity.name.tag, punctuation.definition.tag, keyword.desktop, keyword.mathematics, meta.diff.range</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -184,7 +184,7 @@
             <key>name</key>
             <string>Comment</string>
             <key>scope</key>
-            <string>comment</string>
+            <string>comment, markup.inserted</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -219,7 +219,7 @@
             <key>name</key>
             <string>Preprocessor</string>
             <key>scope</key>
-            <string>preprocessor</string>
+            <string>preprocessor, meta.diff.header</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
