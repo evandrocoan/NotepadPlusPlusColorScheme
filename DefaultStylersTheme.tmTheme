@@ -140,7 +140,7 @@
             <key>name</key>
             <string>Exception</string>
             <key>scope</key>
-            <string>class.exception</string>
+            <string>class.exception, meta.inappropriate</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -162,7 +162,7 @@
             <key>name</key>
             <string>Function Call</string>
             <key>scope</key>
-            <string>function.call, keyword.analysis.matlab</string>
+            <string>function.call, keyword.analysis.matlab, meta.function-call</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
