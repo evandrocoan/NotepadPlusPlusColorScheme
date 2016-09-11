@@ -35,7 +35,7 @@
             <key>name</key>
             <string>String</string>
             <key>scope</key>
-            <string>string</string>
+            <string>string, punctuation.definition.string</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -66,7 +66,7 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Meta Tag</string>
+            <string>Tag</string>
             <key>scope</key>
             <string>meta.tag, markup.deleted</string>
             <key>settings</key>
@@ -105,7 +105,7 @@
             <key>name</key>
             <string>Keyword Operator</string>
             <key>scope</key>
-            <string>keyword.operator, keyword.brackets</string>
+            <string>keyword.operator, keyword.brackets, punctuation.definition.group, punctuation.definition.block.begin, punctuation.definition.block.end</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -140,7 +140,7 @@
             <key>name</key>
             <string>Exception</string>
             <key>scope</key>
-            <string>class.exception, meta.inappropriate</string>
+            <string>class.exception, meta.inappropriate, string.quoted.double.include</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -162,7 +162,7 @@
             <key>name</key>
             <string>Function Call</string>
             <key>scope</key>
-            <string>function.call, keyword.analysis.matlab, meta.function-call</string>
+            <string>function.call, keyword.analysis.matlab, meta.function.call</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -178,6 +178,17 @@
             <dict>
                 <key>fontStyle</key>
                 <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Variable</string>
+            <key>scope</key>
+            <string>variable.parameter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#003000</string>
             </dict>
         </dict>
         <dict>
@@ -219,9 +230,11 @@
             <key>name</key>
             <string>Preprocessor</string>
             <key>scope</key>
-            <string>preprocessor, meta.diff.header</string>
+            <string>preprocessor, meta.preprocessor, string.quoted.other.lt-gt.include, meta.diff.header, keyword.control.import.include</string>
             <key>settings</key>
             <dict>
+                <key>fontStyle</key>
+                <string>unbold</string>
                 <key>foreground</key>
                 <string>#804000</string>
             </dict>
@@ -336,17 +349,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#808080</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Variable</string>
-            <key>scope</key>
-            <string>variable</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#003000</string>
             </dict>
         </dict>
         <dict>
