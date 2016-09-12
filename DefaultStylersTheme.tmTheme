@@ -79,7 +79,7 @@
             <key>name</key>
             <string>Keyword Common</string>
             <key>scope</key>
-            <string>keyword.common, keyword.control, entity.name.tag, punctuation.definition.tag, keyword.desktop, keyword.mathematics, meta.diff.range</string>
+            <string>keyword.common, keyword.control - meta.preprocessor, entity.name.tag, punctuation.definition.tag, keyword.desktop, keyword.mathematics, meta.diff.range</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -87,25 +87,12 @@
                 <key>foreground</key>
                 <string>#0000FF</string>
             </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Keyword Common</string>
-            <key>scope</key>
-            <string>punctuation.definition.block</string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string>bold</string>
-                <key>foreground</key>
-                <string>#800000</string>
-            </dict>
-        </dict>
+        </dict>        
         <dict>
             <key>name</key>
             <string>Keyword Operator</string>
             <key>scope</key>
-            <string>keyword.operator, keyword.brackets, punctuation.definition.group, punctuation.definition.block.begin, punctuation.definition.block.end</string>
+            <string>keyword.operator - meta.preprocessor, keyword.brackets, punctuation.definition.group - meta.preprocessor, punctuation.definition.block - meta.preprocessor</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -151,7 +138,7 @@
             <key>name</key>
             <string>Function Definition</string>
             <key>scope</key>
-            <string>function.definition, function.name, entity.name.function</string>
+            <string>function.definition, function.name, entity.name.function.AmxxPawn, support.function - meta.preprocessor</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -171,13 +158,13 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Arguments</string>
+            <string>Function Call</string>
             <key>scope</key>
-            <string>variable.parameter</string>
+            <string>function.call, keyword.analysis.matlab, meta.function.python</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
+                <key>foreground</key>
+                <string>#FF00FF</string>
             </dict>
         </dict>
         <dict>
@@ -187,8 +174,6 @@
             <string>variable.parameter</string>
             <key>settings</key>
             <dict>
-                <key>foreground</key>
-                <string>#003000</string>
             </dict>
         </dict>
         <dict>
@@ -230,7 +215,7 @@
             <key>name</key>
             <string>Preprocessor</string>
             <key>scope</key>
-            <string>preprocessor, meta.preprocessor, string.quoted.other.lt-gt.include, meta.diff.header, keyword.control.import.include</string>
+            <string>preprocessor, meta.preprocessor, meta.preprocessor - keyword.control.c++, meta.preprocessor.macro, string.quoted.other.lt-gt.include, meta.diff.header, keyword.control.import, entity.name.function.preprocessor</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -294,17 +279,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#6782D3</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Support</string>
-            <key>scope</key>
-            <string>support</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#006000</string>
             </dict>
         </dict>
         <dict>
