@@ -79,7 +79,7 @@
             <key>name</key>
             <string>Keyword Common</string>
             <key>scope</key>
-            <string>keyword.common, keyword.control - meta.preprocessor, entity.name.tag, punctuation.definition.tag, keyword.desktop, keyword.mathematics, meta.diff.range</string>
+            <string>keyword.common, constant.language.python, storage.type.function.python, keyword.control.import.python, storage.type.class.python, keyword.control - meta.preprocessor, entity.name.tag, punctuation.definition.tag, keyword.desktop, keyword.mathematics, meta.diff.range, keyword.operator.word</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -92,7 +92,7 @@
             <key>name</key>
             <string>Keyword Operator</string>
             <key>scope</key>
-            <string>keyword.operator - meta.preprocessor, keyword.brackets, punctuation.definition.group - meta.preprocessor, punctuation.definition.block - meta.preprocessor</string>
+            <string>keyword.operator - meta.preprocessor, keyword.brackets, punctuation.definition.parameters, punctuation.definition.arguments, punctuation.definition.inheritance, punctuation.definition.group - meta.preprocessor, punctuation.definition.block - meta.preprocessor</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -138,7 +138,7 @@
             <key>name</key>
             <string>Function Definition</string>
             <key>scope</key>
-            <string>function.definition, function.name, entity.name.function.AmxxPawn, support.function - meta.preprocessor</string>
+            <string>function.definition, function.name, entity.name.function.AmxxPawn</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -149,7 +149,7 @@
             <key>name</key>
             <string>Function Call</string>
             <key>scope</key>
-            <string>function.call, keyword.analysis.matlab, meta.function.call</string>
+            <string>function.call, keyword.analysis.matlab, meta.function.call, keyword.other.python, support.function - meta.preprocessor</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -215,7 +215,7 @@
             <key>name</key>
             <string>Preprocessor</string>
             <key>scope</key>
-            <string>preprocessor, meta.preprocessor, meta.preprocessor - keyword.control.c++, meta.preprocessor.macro, string.quoted.other.lt-gt.include, meta.diff.header, keyword.control.import, entity.name.function.preprocessor</string>
+            <string>preprocessor, meta.preprocessor, string.quoted.other.lt-gt.include, meta.diff.header, keyword.control.import, entity.name.function.preprocessor</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -285,7 +285,7 @@
             <key>name</key>
             <string>Storage</string>
             <key>scope</key>
-            <string>storage</string>
+            <string>storage.type - meta.function.python - storage.type.class.python</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
