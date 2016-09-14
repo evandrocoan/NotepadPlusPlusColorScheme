@@ -92,7 +92,7 @@
             <key>name</key>
             <string>Keyword Operator</string>
             <key>scope</key>
-            <string>keyword.operator - meta.preprocessor, keyword.brackets, punctuation.definition.parameters, punctuation.definition.arguments, punctuation.definition.inheritance, punctuation.definition.group - meta.preprocessor, punctuation.definition.block - meta.preprocessor</string>
+            <string>keyword.operator - meta.preprocessor, keyword.brackets, punctuation.definition.parameters, punctuation.definition.arguments, punctuation.definition.inheritance, punctuation.definition.group - meta.preprocessor, punctuation.definition.block - meta.preprocessor, punctuation.definition.brackets - meta.preprocessor, punctuation.terminator - meta.preprocessor, punctuation.accessor - meta.preprocessor, punctuation.separator - meta.preprocessor</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -285,7 +285,7 @@
             <key>name</key>
             <string>Storage</string>
             <key>scope</key>
-            <string>storage.type - meta.function.python - storage.type.class.python</string>
+            <string>storage.modifier, storage.type - meta.function.python - storage.type.class.python</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
