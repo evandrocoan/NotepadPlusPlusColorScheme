@@ -160,7 +160,7 @@
             <key>name</key>
             <string>Function Call</string>
             <key>scope</key>
-            <string>function.call, keyword.analysis.matlab, meta.function.python</string>
+            <string>function.call, keyword.analysis.matlab, meta.function.python, meta.tag.any</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
