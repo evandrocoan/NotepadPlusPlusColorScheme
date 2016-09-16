@@ -92,7 +92,7 @@
             <key>name</key>
             <string>Keyword Operator</string>
             <key>scope</key>
-            <string>keyword.operator - meta.preprocessor, keyword.brackets, punctuation.definition.parameters, punctuation.definition.arguments, punctuation.definition.inheritance, punctuation.definition.group - meta.preprocessor, punctuation.definition.block - meta.preprocessor, punctuation.definition.brackets - meta.preprocessor, punctuation.terminator - meta.preprocessor, punctuation.accessor - meta.preprocessor, punctuation.separator - meta.preprocessor</string>
+            <string>keyword.operator - meta.preprocessor, keyword.brackets, punctuation.definition.parameters, punctuation.definition.arguments, punctuation.definition.inheritance, punctuation.definition.group - meta.preprocessor, punctuation.definition.block - meta.preprocessor, punctuation.definition.brackets - meta.preprocessor, punctuation.terminator - meta.preprocessor, punctuation.accessor - meta.preprocessor, punctuation.separator - meta.preprocessor, punctuation.definition.parens</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
