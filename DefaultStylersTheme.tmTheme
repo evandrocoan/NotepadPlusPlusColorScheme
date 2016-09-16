@@ -87,7 +87,7 @@
                 <key>foreground</key>
                 <string>#0000FF</string>
             </dict>
-        </dict>        
+        </dict>
         <dict>
             <key>name</key>
             <string>Keyword Operator</string>
@@ -138,7 +138,7 @@
             <key>name</key>
             <string>Function Definition</string>
             <key>scope</key>
-            <string>function.definition, function.name, entity.name.function.AmxxPawn</string>
+            <string>function.definition, function.name, entity.name.function.AmxxPawn, meta.tag.value</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
