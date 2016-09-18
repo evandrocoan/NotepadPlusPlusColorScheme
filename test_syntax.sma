@@ -7,8 +7,14 @@
 new const PLUGIN_NAME[]      = "Galileo";
 new const PLUGIN_AUTHOR[]    = "Brad Jones/Addons zz";
 new const bool:g_dummy_value = false;
+
 static formated_message[ MAX_BIG_BOSS_STRING ];
 const formated_message;
+
+stock nominationAttemptWithNamePart( player_id = 5, partialNameAttempt[] )
+{}
+stock test_loadVoteChoices_check( test_id, mapToCheck[], bool:isToBePresent = "asdfadsf" )
+{}
 
 /**
  * Change this value from 0 to 1, to use the Whitelist feature as a Blacklist feature.
@@ -296,6 +302,8 @@ new const bool:g_dummy_value = false;
 static formated_message[ MAX_BIG_BOSS_STRING ];
 const formated_message;
 
+stock nominationAttemptWithNamePart( player_id = 5, partialNameAttempt[], player = 8 )
+stock test_loadVoteChoices_check( test_id, mapToCheck[], isToBePresent = "asdfadsf" )
 stock test_loadVoteChoices_check( test_id, mapToCheck[], bool:isToBePresent = "asdfadsf" )
 {
 new const bool:g_dummy_value = false;
@@ -318,7 +326,7 @@ new bool : isMapPresent ;
 new       currentIndex ;
 new       errorMessage [ MAX_LONG_STRING ];
     
-    fileDescriptor = fopen( mapFileListPath, "wt" );
+    fileDescriptor = fopen( mapFileListPath, "wt", partialNameAttempt );
     
     if( mapToCheck[ 0 ] )
     {
