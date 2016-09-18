@@ -20,7 +20,7 @@ stock test_loadVoteChoices_check( test_id, mapToCheck[], bool:isToBePresent = "a
  * Change this value from 0 to 1, to use the Whitelist feature as a Blacklist feature.
  */
 #define IS_TO_USE_BLACKLIST_INSTEAD_OF_WHITELIST 0
-//not match this
+not match this
 
 /**
  * Convert colored strings codes '!g for green', '!y for yellow', '!t for team'.
@@ -34,7 +34,7 @@ stock test_loadVoteChoices_check( test_id, mapToCheck[], bool:isToBePresent = "a
     replace_all( %1, charsmax( %1 ), "!n", "^1" ); \
     replace_all( %1, charsmax( %1 ), "!y", "^1" ); \
 }
-//not match this
+not match this
 
 stock hi()
 {
@@ -72,7 +72,7 @@ stock hi()
       && get_pcvar_num( cvar_nomMinPlayersControl ) \
       && get_pcvar_num( cvar_nomMinPlayersControl ) \
       && get_pcvar_num( cvar_nomMinPlayersControl ) )
-//not match this
+not match this
 
 stock hiddddddddddddddddddddd()
     color_print( 0, "%L %L",
@@ -96,13 +96,13 @@ new const PLUGIN_VERSION[] = "v3.2.2-259";
         copy( %2, charsmax( %2 ), "Unknown Dude" ); \
     } \
 }
-//not match this
+not match this
 
 /**
  * Setup the debugging tools when they are used/necessary.
  */
 #if DEBUG_LEVEL & DEBUG_LEVEL_UNIT_TEST_NORMAL
-//not match this
+not match this
     
     /**
      * Contains all imediates unit tests to execute.
@@ -214,15 +214,15 @@ var = 50; // when anything start without indentation, it breaks other things, so
 }
 
 #define GET_USER_NAME(%1,%2)
-//not match this
+not match this
 
 /**
  * Setup the debugging tools when they are used/necessary.
  */
 #if DEBUG_LEVEL & DEBUG_LEVEL_UNIT_TEST_NORMAL
-//not match this
+not match this
 
-configureServerStart( )
+configureServerStart(%1,%2, var = 80, str[] = "kjlçkj" )
     LOGGER( 128, "I AM ENTERING ON configureServerStart(0)" )
 
 configureServerStart( )
