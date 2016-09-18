@@ -4,9 +4,11 @@
  * This version number must be synced with "githooks/GALILEO_SMA_VERSION.txt" for manual edition.
  * To update them automatically, use: ./githooks/updateVersion.sh [major | minor | patch | build]
  */
-new const PLUGIN_NAME[]    = "Galileo";
-new const PLUGIN_AUTHOR[]  = "Brad Jones/Addons zz";
-new const PLUGIN_VERSION[] = "v3.2.2-259";
+new const PLUGIN_NAME[]      = "Galileo";
+new const PLUGIN_AUTHOR[]    = "Brad Jones/Addons zz";
+new const bool:g_dummy_value = false;
+static formated_message[ MAX_BIG_BOSS_STRING ];
+const formated_message;
 
 /**
  * Change this value from 0 to 1, to use the Whitelist feature as a Blacklist feature.
@@ -75,6 +77,7 @@ stock hiddddddddddddddddddddd()
  * Dummy value used on conditional statements to allow statements as always true or false.
  */
 new const bool:g_dummy_value = false;
+new const PLUGIN_VERSION[] = "v3.2.2-259";
 
 #define GET_USER_NAME(%1,%2) \
 { \
@@ -282,11 +285,31 @@ stock configureServerStart
 }
 
 
+new const bool:g_dummy_value = false;
+static formated_message[ MAX_BIG_BOSS_STRING ];
+const formated_message;
+
 stock test_loadVoteChoices_check( test_id, mapToCheck[], bool:isToBePresent )
 {
+new const bool:g_dummy_value = false;
+static formated_message[ MAX_BIG_BOSS_STRING ];
+const formated_message;
+    
+    new const bool:g_dummy_value = false;
+    static formated_message[ MAX_BIG_BOSS_STRING ];
+    const formated_message;
+    
     new bool:isMapPresent;
     new      currentIndex;
     new      errorMessage[ MAX_LONG_STRING ];
+    
+new const bool:g_dummy_value = false;
+static formated_message[ MAX_BIG_BOSS_STRING ];
+const formated_message;
+
+new bool:isMapPresent;
+new      currentIndex;
+new      errorMessage[ MAX_LONG_STRING ];
     
     fileDescriptor = fopen( mapFileListPath, "wt" );
     
