@@ -14,7 +14,7 @@ const formated_message;
  * Change this value from 0 to 1, to use the Whitelist feature as a Blacklist feature.
  */
 #define IS_TO_USE_BLACKLIST_INSTEAD_OF_WHITELIST 0
-not match this
+//not match this
 
 /**
  * Convert colored strings codes '!g for green', '!y for yellow', '!t for team'.
@@ -28,7 +28,7 @@ not match this
     replace_all( %1, charsmax( %1 ), "!n", "^1" ); \
     replace_all( %1, charsmax( %1 ), "!y", "^1" ); \
 }
-not match this
+//not match this
 
 stock hi()
 {
@@ -66,7 +66,7 @@ stock hi()
       && get_pcvar_num( cvar_nomMinPlayersControl ) \
       && get_pcvar_num( cvar_nomMinPlayersControl ) \
       && get_pcvar_num( cvar_nomMinPlayersControl ) )
-not match this
+//not match this
 
 stock hiddddddddddddddddddddd()
     color_print( 0, "%L %L",
@@ -90,13 +90,13 @@ new const PLUGIN_VERSION[] = "v3.2.2-259";
         copy( %2, charsmax( %2 ), "Unknown Dude" ); \
     } \
 }
-not match this
+//not match this
 
 /**
  * Setup the debugging tools when they are used/necessary.
  */
 #if DEBUG_LEVEL & DEBUG_LEVEL_UNIT_TEST_NORMAL
-not match this
+//not match this
     
     /**
      * Contains all imediates unit tests to execute.
@@ -189,7 +189,7 @@ public plugin_init()
 #if DEBUG_LEVEL & DEBUG_LEVEL_CRITICAL_MODE
     g_debug_level = 1048575;
 #endif
-    
+var = 50; // when anything start without indentation, it breaks other things, so just indent your code. 
     register_plugin( PLUGIN_NAME, PLUGIN_VERSION, PLUGIN_AUTHOR );
     LOGGER( 1, "^n^n^n^n%s PLUGIN VERSION %s INITIATING...", PLUGIN_NAME, PLUGIN_VERSION )
     
@@ -208,13 +208,13 @@ public plugin_init()
 }
 
 #define GET_USER_NAME(%1,%2)
-not match this
+//not match this
 
 /**
  * Setup the debugging tools when they are used/necessary.
  */
 #if DEBUG_LEVEL & DEBUG_LEVEL_UNIT_TEST_NORMAL
-not match this
+//not match this
 
 configureServerStart( )
     LOGGER( 128, "I AM ENTERING ON configureServerStart(0)" )
@@ -284,12 +284,19 @@ stock configureServerStart
                                   g_isToRefreshVoteStatus,      g_totalVoteOptions,     strlen( g_voteStatusClean )  )
 }
 
+    stock print_logger( const message[] = "", any:... )
+    {
+        static formated_message[ MAX_BIG_BOSS_STRING ];
+        vformat( formated_message, charsmax( formated_message ), message, 2 );
+        
+        writeToTheDebugFile( DEBUGGER_OUTPUT_LOG_FILE_NAME, formated_message );
+    }
 
 new const bool:g_dummy_value = false;
 static formated_message[ MAX_BIG_BOSS_STRING ];
 const formated_message;
 
-stock test_loadVoteChoices_check( test_id, mapToCheck[], bool:isToBePresent )
+stock test_loadVoteChoices_check( test_id, mapToCheck[], bool:isToBePresent = "asdfadsf" )
 {
 new const bool:g_dummy_value = false;
 static formated_message[ MAX_BIG_BOSS_STRING ];
@@ -307,9 +314,9 @@ new const bool:g_dummy_value = false;
 static formated_message[ MAX_BIG_BOSS_STRING ];
 const formated_message;
 
-new bool:isMapPresent;
-new      currentIndex;
-new      errorMessage[ MAX_LONG_STRING ];
+new bool : isMapPresent ;
+new       currentIndex ;
+new       errorMessage [ MAX_LONG_STRING ];
     
     fileDescriptor = fopen( mapFileListPath, "wt" );
     
