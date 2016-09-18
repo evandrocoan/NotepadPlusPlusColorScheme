@@ -174,19 +174,6 @@ enum (+= 100000)
 {
     TASKID_RTV_REMINDER = 100000, // start with 100000
     TASKID_SHOW_LAST_ROUND_HUD,
-    TASKID_DELETE_USERS_MENUS,
-    TASKID_PREVENT_INFITY_GAME,
-    TASKID_EMPTYSERVER,
-    TASKID_START_VOTING_BY_ROUNDS,
-    TASKID_START_VOTING_BY_TIMER,
-    TASKID_PROCESS_LAST_ROUND,
-    TASKID_VOTE_HANDLEDISPLAY,
-    TASKID_VOTE_DISPLAY,
-    TASKID_VOTE_EXPIRE,
-    TASKID_PENDING_VOTE_COUNTDOWN,
-    TASKID_DBG_FAKEVOTES,
-    TASKID_VOTE_STARTDIRECTOR,
-    TASKID_MAP_CHANGE,
     TASKID_FINISH_GAME_TIME_BY_HALF,
 }
 
@@ -201,12 +188,6 @@ var = 50; // when anything start without indentation, it breaks other things, so
     
     register_cvar( "amx_extendmap_max", "90" );
     
-    cvar_extendmapStepMinutes    = register_cvar( "amx_extendmap_step", "15" );
-    cvar_extendmapStepRounds     = register_cvar( "amx_extendmap_step_rounds", "30" );
-    cvar_extendmapStepFrags      = register_cvar( "amx_extendmap_step_frags", "60" );
-    cvar_fragLimitSupport        = register_cvar( "gal_mp_fraglimit_support", "0" );
-    cvar_extendmapAllowStay      = register_cvar( "amx_extendmap_allow_stay", "0" );
-    cvar_isExtendmapOrderAllowed = register_cvar( "amx_extendmap_allow_order", "0" );
     cvar_extendmapAllowStayType  = register_cvar( "amx_extendmap_allow_stay_type", "0" );
     cvar_disabledValuePointer    = register_cvar( "gal_disabled_value_pointer", "0", FCVAR_SPONLY );
     cvar_isFirstServerStart      = register_cvar
@@ -222,10 +203,17 @@ not match this
 #if DEBUG_LEVEL & DEBUG_LEVEL_UNIT_TEST_NORMAL
 not match this
 
+// This below is not matched as a function call because function calls
+// are only matched inside blocks. Now I thinking better, I may create
+// a new rule to match it as a function definition.
 configureServerStart(%1,%2, var = 80, str[] = "kjlçkj" )
+{
     LOGGER( 128, "I AM ENTERING ON configureServerStart(0)" )
+}
 
 configureServerStart( )
+    // However this function call bellow could match as a function definition also
+    // but it would just pollute a little the symbols list.
     LOGGER( 128, "I AM ENTERING ON configureServerStart(0)" )
 
 
