@@ -138,7 +138,7 @@
             <key>name</key>
             <string>Function Definition</string>
             <key>scope</key>
-            <string>function.definition, function.name, entity.name.function.AmxxPawn, meta.tag.value</string>
+            <string>function.definition - meta.preprocessor, function.name, entity.name.function.AmxxPawn, meta.tag.value</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -171,9 +171,11 @@
             <key>name</key>
             <string>Variable</string>
             <key>scope</key>
-            <string>variable.parameter</string>
+            <string>variable.parameter, variable.definition</string>
             <key>settings</key>
             <dict>
+                <key>foreground</key>
+                <string>#000000</string>
             </dict>
         </dict>
         <dict>
@@ -215,7 +217,7 @@
             <key>name</key>
             <string>Preprocessor</string>
             <key>scope</key>
-            <string>preprocessor, meta.preprocessor, string.quoted.other.lt-gt.include, meta.diff.header, keyword.control.import - keyword.control.import.from.python, entity.name.function.preprocessor</string>
+            <string>meta.preprocessor, string.quoted.other.lt-gt.include, meta.diff.header, keyword.control.import - keyword.control.import.from.python, entity.name.function.preprocessor</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
