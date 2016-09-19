@@ -21,6 +21,21 @@ stock test_loadVoteChoices_check( test_id, mapToCheck[], bool:isToBePresent = "a
  */
 #define IS_TO_USE_BLACKLIST_INSTEAD_OF_WHITELIST 0
 not match this
+not match this
+
+    #define DEBUG a
+not match
+not match
+
+    #define DEBUG 
+not match
+not match
+
+// If the line contains only 'define+word' it only match the macro ending at the next line.
+// Opened a issue for this bad match on: https://github.com/SublimeTextIssues/Core/issues/1377
+    #define DEBUG
+not match
+not match
 
 /**
  * Convert colored strings codes '!g for green', '!y for yellow', '!t for team'.
@@ -332,6 +347,40 @@ new       errorMessage [ MAX_LONG_STRING ];
     }
 }
 
+
+
+public own_type:on_damage( id )
+{
+    new attacker = own_type: get_user_attacker( id )
+
+// There exists only one thing which can fuck your scopes meta.block, it is the preprocessor.
+// I need to find these preprocessor blocks, and deal within them.
+#if defined DAMAGE_RECIEVED
+    // id should be connected if this message is sent, but lets check anyway
+    if( is_user_connected( id )
+        && is_user_connected( attacker ) )
+        if( get_user_flags( attacker ) & ADMIN_LEVEL_H )
+        {
+            new damage = read_data( 2 )
+
+            set_hudmessage( 255, 0, 0, 0.45, 0.50, 2, 0.1, 4.0, 0.1, 0.1, -1 )
+            ShowSyncHudMsg( id, g_MsgSync2, "%i^n", damage )
+#else
+        if( is_user_connected( attacker )
+            && ( get_user_flags( attacker ) & ADMIN_LEVEL_H ) )
+        {
+            new damage = read_data( 2 )
+#endif
+            set_hudmessage( 0, 100, 200, -1.0, 0.55, 2, 0.1, 4.0, 0.02, 0.02, -1 )
+            ShowSyncHudMsg( attacker, g_MsgSync, "%i^n", damage )
+        }
+    hi_girl()
+}
+
+public on_damage( id )
+{
+    get_user_attacker( id )
+}
 
 
 
