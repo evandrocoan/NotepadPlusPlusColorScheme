@@ -23,6 +23,8 @@
                 <string>#000000</string>
                 <key>foreground</key>
                 <string>#000000</string>
+                <key>popupCss</key>
+                <string><![CDATA[ html { background-color: #B9B9B9; }]]></string>
                 <key>invisibles</key>
                 <string>#B3B3B3</string>
                 <key>lineHighlight</key>
