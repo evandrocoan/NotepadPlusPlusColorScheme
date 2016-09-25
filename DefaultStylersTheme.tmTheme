@@ -37,7 +37,10 @@
             <key>name</key>
             <string>String</string>
             <key>scope</key>
-            <string>string, punctuation.definition.string</string>
+            <string>
+                , string,
+                , punctuation.definition.string,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -81,7 +84,20 @@
             <key>name</key>
             <string>Keyword Common</string>
             <key>scope</key>
-            <string>keyword.common, constant.language.python, storage.type.function.python, keyword.control.import.python, storage.type.class.python, keyword.control - meta.preprocessor, entity.name.tag, punctuation.definition.tag, keyword.desktop, keyword.mathematics, meta.diff.range, keyword.operator.word</string>
+            <string>
+                , keyword.common,
+                , constant.language.python,
+                , storage.type.function.python,
+                , keyword.control.import.python,
+                , storage.type.class.python,
+                , keyword.control - meta.preprocessor,
+                , entity.name.tag,
+                , punctuation.definition.tag,
+                , keyword.desktop,
+                , keyword.mathematics,
+                , meta.diff.range,
+                , keyword.operator.word,
+            </string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -94,7 +110,20 @@
             <key>name</key>
             <string>Keyword Operator</string>
             <key>scope</key>
-            <string>keyword.operator - meta.preprocessor, keyword.brackets, punctuation.definition.parameters, punctuation.definition.arguments, punctuation.definition.inheritance, punctuation.definition.group - meta.preprocessor, punctuation.definition.block - meta.preprocessor, punctuation.definition.brackets - meta.preprocessor, punctuation.terminator - meta.preprocessor, punctuation.accessor - meta.preprocessor, punctuation.separator - meta.preprocessor, punctuation.definition.parens</string>
+            <string>
+                , keyword.operator - meta.preprocessor,
+                , keyword.brackets,
+                , punctuation.definition.parameters,
+                , punctuation.definition.arguments,
+                , punctuation.definition.inheritance,
+                , punctuation.definition.group - meta.preprocessor,
+                , punctuation.definition.block - meta.preprocessor,
+                , punctuation.definition.brackets - meta.preprocessor,
+                , punctuation.terminator - meta.preprocessor,
+                , punctuation.accessor - meta.preprocessor,
+                , punctuation.separator - meta.preprocessor,
+                , punctuation.definition.parens,
+            </string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -129,7 +158,11 @@
             <key>name</key>
             <string>Exception</string>
             <key>scope</key>
-            <string>class.exception, meta.inappropriate, string.quoted.double.include</string>
+            <string>
+                , class.exception,
+                , meta.inappropriate,
+                , string.quoted.double.include,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -140,7 +173,12 @@
             <key>name</key>
             <string>Function Definition</string>
             <key>scope</key>
-            <string>function.definition - meta.preprocessor, function.name, entity.name.function.AmxxPawn, meta.tag.value</string>
+            <string>
+                , function.definition - meta.preprocessor,
+                , function.name,
+                , entity.name.function.AmxxPawn,
+                , meta.tag.value,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -151,7 +189,13 @@
             <key>name</key>
             <string>Function Call</string>
             <key>scope</key>
-            <string>function.call, keyword.analysis.matlab, meta.function.call, keyword.other.python, support.function - meta.preprocessor</string>
+            <string>
+                , function.call,
+                , keyword.analysis.matlab,
+                , meta.function.call,
+                , keyword.other.python,
+                , support.function - meta.preprocessor,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -162,7 +206,12 @@
             <key>name</key>
             <string>Function Call</string>
             <key>scope</key>
-            <string>function.call, keyword.analysis.matlab, meta.function.python, meta.tag.any</string>
+            <string>
+                , function.call,
+                , keyword.analysis.matlab,
+                , meta.function.python,
+                , meta.tag.any,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -173,7 +222,10 @@
             <key>name</key>
             <string>Variable</string>
             <key>scope</key>
-            <string>variable.parameter, variable.definition</string>
+            <string>
+                , variable.parameter,
+                , variable.definition,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -184,7 +236,10 @@
             <key>name</key>
             <string>Comment</string>
             <key>scope</key>
-            <string>comment, markup.inserted</string>
+            <string>
+                , comment,
+                , markup.inserted,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -195,7 +250,11 @@
             <key>name</key>
             <string>Comment</string>
             <key>scope</key>
-            <string>doccomment, punctuation.definition.doccomment, comment.line.triple-slash</string>
+            <string>
+                , doccomment,
+                , punctuation.definition.doccomment,
+                , comment.line.triple-slash,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -219,7 +278,13 @@
             <key>name</key>
             <string>Preprocessor</string>
             <key>scope</key>
-            <string>meta.preprocessor, string.quoted.other.lt-gt.include, meta.diff.header, keyword.control.import - keyword.control.import.from.python, entity.name.function.preprocessor</string>
+            <string>
+                , meta.preprocessor,
+                , string.quoted.other.lt-gt.include,
+                , meta.diff.header,
+                , keyword.control.import - keyword.control.import.from.python,
+                , entity.name.function.preprocessor,
+            </string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -232,7 +297,10 @@
             <key>name</key>
             <string>Brace</string>
             <key>scope</key>
-            <string>punctuation.section.embedded, brace.html</string>
+            <string>
+                , punctuation.section.embedded,
+                , brace.html,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -289,7 +357,10 @@
             <key>name</key>
             <string>Storage</string>
             <key>scope</key>
-            <string>storage.modifier, storage.type - meta.function.python - storage.type.class.python</string>
+            <string>
+                , storage.modifier,
+                , storage.type - meta.function.python - storage.type.class.python,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -322,7 +393,10 @@
             <key>name</key>
             <string>User-defined constant</string>
             <key>scope</key>
-            <string>constant.character, constant.other</string>
+            <string>
+                , constant.character,
+                , constant.other,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
