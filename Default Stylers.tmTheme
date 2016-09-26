@@ -116,6 +116,8 @@
                 , punctuation.definition.parameters,
                 , punctuation.definition.arguments,
                 , punctuation.definition.inheritance,
+                , punctuation.section.brackets,
+                , punctuation.section.parens,
                 , punctuation.definition.group - meta.preprocessor,
                 , punctuation.definition.block - meta.preprocessor,
                 , punctuation.definition.brackets - meta.preprocessor,
