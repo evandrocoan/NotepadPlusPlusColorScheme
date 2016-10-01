@@ -16,10 +16,11 @@ stock nominationAttemptWithNamePart( player_id = 5, partialNameAttempt[] )
 stock test_loadVoteChoices_check( test_id, mapToCheck[], bool:isToBePresent = "asdfadsf" )
 {}
 
+#define IS_TO_USE_BLACKLIST_INSTEAD_OF_WHITELIST 01+50
 /**
  * Change this value from 0 to 1, to use the Whitelist feature as a Blacklist feature.
  */
-#define IS_TO_USE_BLACKLIST_INSTEAD_OF_WHITELIST 0
+#define IS_TO_USE_BLACKLIST_INSTEAD_OF_WHITELIST 01
 not match this
 not match this
 
