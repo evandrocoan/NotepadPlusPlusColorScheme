@@ -16,6 +16,14 @@ stock nominationAttemptWithNamePart( player_id = 5, partialNameAttempt[] )
 stock test_loadVoteChoices_check( test_id, mapToCheck[], bool:isToBePresent = "asdfadsf" )
 {}
 
+#define INSERT_COLOR_TAGS(%1) \
+{ \
+    replace_all( %1, /*charsmax( %1 )*/, "!g", "^4" ); \
+    replace_all( %1, charsmax( %1 ), "!t", "^3" ); \
+    \ replace_all( %1, charsmax( %1 ), "!n", "^1" ); \
+    replace_all( %1, charsmax( %1 ), "!y", "^1" ); \
+}
+
 #define IS_TO_USE_BLACKLIST_INSTEAD_OF_WHITELIST 01+50
 /**
  * Change this value from 0 to 1, to use the Whitelist feature as a Blacklist feature.
