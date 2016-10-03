@@ -23,6 +23,10 @@
                 <string>#000000</string>
                 <key>foreground</key>
                 <string>#000000</string>
+                <key>tagsForeground</key>
+                <string>#75D975</string>
+                <key>findHighlight</key>
+                <string>#75D975</string> 
                 <key>popupCss</key>
                 <string><![CDATA[ html { background-color: #B9B9B9; }]]></string>
                 <key>invisibles</key>
@@ -31,6 +35,22 @@
                 <string>#DADAFF</string>
                 <key>selection</key>
                 <string>#B9B9B9</string>
+                <key>gutter</key>
+                <string>#F0F0F0</string>
+                <key>selectionBorder</key>
+                <string>#555555</string>
+                <key>shadow</key>
+                <string>#1d1f21</string>
+                <key>shadowWidth</key>
+                <string>42</string>
+                <key>bracketsOptions</key>
+                <string>underline</string>
+                <key>bracketsForeground</key>
+                <string>#FF0000</string>
+                <key>bracketContentsOptions</key>
+                <string>underline</string>
+                <key>bracketContentsForeground</key>
+                <string>#FF0000</string>
             </dict>
         </dict>
         <dict>
