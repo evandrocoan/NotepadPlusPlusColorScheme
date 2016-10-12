@@ -98,6 +98,11 @@ stock hi()
       && get_pcvar_num( cvar_nomMinPlayersControl ) )
 not match this
 
+#include <amxmodx>
+#if AMXX_VERSION_NUM < 183 //asd 
+#include <colorchat>
+#endif
+
 stock hiddddddddddddddddddddd()
     color_print( 0, "%L %L",
             LANG_PLAYER, "GAL_CHANGE_TIMEEXPIRED", LANG_PLAYER, "GAL_NEXTMAP", g_nextMap );
