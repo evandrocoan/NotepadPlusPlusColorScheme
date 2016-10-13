@@ -99,7 +99,7 @@ stock hi()
 not match this
 
 #include <amxmodx>
-#if AMXX_VERSION_NUM < 183 //asd 
+#if AMXX_VERSION_NUM < 183 /* */ //
 #include <colorchat>
 #endif
 
