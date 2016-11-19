@@ -26,7 +26,7 @@
                 <key>tagsForeground</key>
                 <string>#75D975</string>
                 <key>findHighlight</key>
-                <string>#75D975</string> 
+                <string>#75D975</string>
                 <key>popupCss</key>
                 <string><![CDATA[ html { background-color: #B9B9B9; }]]></string>
                 <key>invisibles</key>
@@ -51,6 +51,94 @@
                 <string>underline</string>
                 <key>bracketContentsForeground</key>
                 <string>#FF0000</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bracket Default</string>
+            <key>scope</key>
+            <string>brackethighlighter.default</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF0000</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bracket Tag</string>
+            <key>scope</key>
+            <string>brackethighlighter.tag</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#66CCCC</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bracket Curly</string>
+            <key>scope</key>
+            <string>brackethighlighter.curly</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#CC99CC</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bracket Round</string>
+            <key>scope</key>
+            <string>brackethighlighter.round</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFCC66</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bracket Square</string>
+            <key>scope</key>
+            <string>brackethighlighter.square</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#6699CC</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bracket Angle</string>
+            <key>scope</key>
+            <string>brackethighlighter.angle</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F99157</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bracket Quote</string>
+            <key>scope</key>
+            <string>brackethighlighter.quote</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#99CC99</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bracket Unmatched</string>
+            <key>scope</key>
+            <string>brackethighlighter.unmatched</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F2777A</string>
             </dict>
         </dict>
         <dict>
