@@ -45,6 +45,8 @@
                 <string>42</string>
                 <key>bracketsOptions</key>
                 <string>underline</string>
+                <key>misspelling</key>
+                <string>#FF0000</string>
                 <key>bracketsForeground</key>
                 <string>#FF0000</string>
                 <key>bracketContentsOptions</key>
