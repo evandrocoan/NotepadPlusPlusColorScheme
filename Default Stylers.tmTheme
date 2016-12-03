@@ -203,6 +203,8 @@
                 , keyword.control - meta.preprocessor,
                 , entity.name.tag,
                 , punctuation.definition.tag,
+                , variable.language.java,
+                , constant.language.java,
                 , keyword.desktop,
                 , keyword.mathematics,
                 , meta.diff.range,
