@@ -474,6 +474,7 @@
             <string>
                 , storage.modifier,
                 , storage.type - meta.function.python - storage.type.class.python,
+                , variable.type.AmxxPawn,
             </string>
             <key>settings</key>
             <dict>
