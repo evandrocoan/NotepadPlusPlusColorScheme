@@ -248,6 +248,19 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Bold text</string>
+            <key>scope</key>
+            <string>boldtext</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#0033CC</string>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Keyword Other</string>
             <key>scope</key>
             <string>keyword.other</string>
