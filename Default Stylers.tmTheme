@@ -250,13 +250,27 @@
             <key>name</key>
             <string>Bold text</string>
             <key>scope</key>
-            <string>boldtext</string>
+            <string>
+                , boldtext,
+                , keyword.command.dosbatch,
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Blue text</string>
+            <key>scope</key>
+            <string>
+                , boldtext,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
                 <string>#0033CC</string>
-                <key>fontStyle</key>
-                <string>bold</string>
             </dict>
         </dict>
         <dict>
@@ -314,13 +328,13 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Function Call</string>
+            <string>Meta Function</string>
             <key>scope</key>
             <string>
-                , function.call,
                 , keyword.analysis.matlab,
                 , meta.function.call,
                 , keyword.other.python,
+                , keyword.command,
                 , support.function - meta.preprocessor,
             </string>
             <key>settings</key>
@@ -335,7 +349,7 @@
             <key>scope</key>
             <string>
                 , function.call,
-                , keyword.analysis.matlab,
+                , keyword.analysis.matlab,.
                 , meta.function.python,
                 , meta.tag.any,
             </string>
@@ -365,6 +379,7 @@
             <key>scope</key>
             <string>
                 , comment,
+                , keyword.command.rem.dosbatch,
                 , markup.inserted,
             </string>
             <key>settings</key>
