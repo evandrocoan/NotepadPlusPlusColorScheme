@@ -6,6 +6,8 @@
     <string>Jeroen van der Ham/Sam Deering/Addons zz</string>
     <key>name</key>
     <string>Notepad-Plus-Plus</string>
+    <key>uuid</key>
+    <string>4FCFA210-B247-11D9-9D00-000D93347A42</string>
     <key>settings</key>
     <array>
         <dict>
@@ -559,8 +561,126 @@
                 <string>#3366CC</string>
             </dict>
         </dict>
+
+        <!------------------ CONSOLE! ---------------------->
+        <dict>
+            <key>name</key>
+            <string>Console Comment</string>
+            <key>scope</key>
+            <string>console.comment</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#B6C720</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Console Line path</string>
+            <key>scope</key>
+            <string>console.line_path</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+                <key>foreground</key>
+                <string>#3880D1</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Console Line number</string>
+            <key>scope</key>
+            <string>console.line_num</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#B4DE0D</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Console Error</string>
+            <key>scope</key>
+            <string>console.error</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+                <key>foreground</key>
+                <string>#dd0000</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Console Warning</string>
+            <key>scope</key>
+            <string>console.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+                <key>foreground</key>
+                <string>#CF8506</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Console Info</string>
+            <key>scope</key>
+            <string>console.info</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#41B5C4</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Console Info Value</string>
+            <key>scope</key>
+            <string>console.info_value</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#2B5D8A</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Console Finished</string>
+            <key>scope</key>
+            <string>console.finished</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+                <key>foreground</key>
+                <string>#3A8518</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Console Time</string>
+            <key>scope</key>
+            <string>console.time</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#5ECF29</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Console Others</string>
+            <key>scope</key>
+            <string>console.others</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#3C7D96</string>
+            </dict>
+        </dict>
     </array>
-    <key>uuid</key>
-    <string>4FCFA210-B247-11D9-9D00-000D93347A42</string>
 </dict>
 </plist>
