@@ -36,7 +36,7 @@ not match this
 not match
 not match
 
-    #define DEBUG 
+    #define DEBUG
 not match
 not match
 
@@ -63,7 +63,7 @@ not match this
 stock hi()
 {
     colored_menus();
-    
+
     if( colored_menus() )
     {
         copy( COLOR_RED, 2, "\r" );
@@ -71,17 +71,17 @@ stock hi()
         copy( COLOR_YELLOW, 2, "\y" );
         copy( COLOR_GREY, 2, "\d" );
     }
-    
+
     color_print( 0, "%Lggggg %L",
             LANG_PLAYER, "GAL_CHANGE_TIMEEXPIRED", LANG_PLAYER, "GAL_NEXTMAP", g_nextMap );
-    
+
     {
         color_print( 0, "%Lggggg %L",
                 LANG_PLAYER, "GAL_CHANGE_TIMEEXPIRED", LANG_PLAYER, "GAL_NEXTMAP", g_nextMap );
     }
-    
+
     colored_menus();
-    
+
     if( colored_menus() )
     {
         copy( COLOR_RED, 2, "\r" );
@@ -132,12 +132,12 @@ not match this
  */
 #if DEBUG_LEVEL & DEBUG_LEVEL_UNIT_TEST_NORMAL
 not match this
-    
+
     /**
      * Contains all imediates unit tests to execute.
      */
     stock normalTestsToExecute()
-    { 
+    {
         test_registerTest();
         test_isInEmptyCycle();
         test_mapGetNext_cases();
@@ -145,19 +145,19 @@ not match this
         test_resetRoundsScores_cases();
         test_loadVoteChoices_cases( DEBUGGER_OUTPUT_LOG_FILE_NAME[], formated_message );
     }
-    
+
     #define DEBUG
     #define LOGGER(%1) debugMesssageLogger( %1 );
-    
+
 #else
     /**
      * The file on the './addons/amxmodx/logs' folder, to save the debugging text output.
      */
     new const DEBUGGER_OUTPUT_LOG_FILE_NAME[] = "_galileo.log";
-    
+
     /**
      * Write messages to the debug log file on 'addons/amxmodx/logs'.
-     * 
+     *
      * @param log_file               the log file name.
      * @param formated_message       the formatted message to write down to the debug log file.
      */
@@ -165,7 +165,7 @@ not match this
     {
         static formated_message[ MAX_BIG_BOSS_STRING ];
         vformat( formated_message, charsmax( formated_message ), message, 2 );
-        
+
         writeToTheDebugFile( DEBUGGER_OUTPUT_LOG_FILE_NAME, formated_message );
     }
 #endif
@@ -211,12 +211,12 @@ public plugin_init()
 #if DEBUG_LEVEL & DEBUG_LEVEL_CRITICAL_MODE
     g_debug_level = 1048575;
 #endif
-var = 50; // when anything start without indentation, it breaks other things, so just indent your code. 
+var = 50; // when anything start without indentation, it breaks other things, so just indent your code.
     register_plugin( PLUGIN_NAME, PLUGIN_VERSION, PLUGIN_AUTHOR );
     LOGGER( 1, "^n^n^n^n%s PLUGIN VERSION %s INITIATING...", PLUGIN_NAME, PLUGIN_VERSION )
-    
+
     register_cvar( "amx_extendmap_max", "90" );
-    
+
     cvar_extendmapAllowStayType  = register_cvar( "amx_extendmap_allow_stay_type", "0" );
     cvar_disabledValuePointer    = register_cvar( "gal_disabled_value_pointer", "0", FCVAR_SPONLY );
     cvar_isFirstServerStart      = register_cvar
@@ -240,32 +240,32 @@ configureServerStart(%1,%2, var = 80, str[] = "kjlçkj" )
     LOGGER( 128, "I AM ENTERING ON configureServerStart(0)" )
 }
 
-configureServerStart( )
+configureServerStartt( )
     // However this function call bellow could match as a function definition also
     // but it would just pollute a little the symbols list.
     LOGGER( 128, "I AM ENTERING ON configureServerStart(0)" )
 
 
-stock configureServerStart
+stock configureServerStartt
 (
                                )
 {
     LOGGER
     ( 128, "I AM ENTERING ON configureServerStart(0)" )
-    
+
     LOGGER( 128, "I AM ENTERING ON configureServerStart(0)" )
-    
+
     if( __get_pcvar_num
                        ( __cvar_gameCrashRecreationAction, get_pcvar_num( cvar_isFirstServerStart) ) )
     {
         g_isToCreateGameCrashFlag = true;
     }
-    
+
     if( get_pcvar_num( cvar_isFirstServerStart) )
     {
         new backupMapsFilePath[ MAX_FILE_PATH_LENGHT ];
         formatex( backupMapsFilePath, charsmax( backupMapsFilePath ), "%s/%s", g_dataDirPath, CURRENT_AND_NEXTMAP_FILE_NAME );
-        
+
         if( file_exists( backupMapsFilePath ) )
         {
             handleServerStart( backupMapsFilePath );
@@ -279,7 +279,7 @@ stock configureServerStart
     {
         saveCurrentAndNextMapNames( g_nextMap );
     }
-    
+
     // Handle the action to take immediately after half of the time-left or rounds-left passed
     // when using the 'Game Server Crash Recreation' Feature.
     if( g_isToCreateGameCrashFlag
@@ -290,19 +290,19 @@ stock configureServerStart
     {
         new gameCrashActionFilePath[ MAX_FILE_PATH_LENGHT ];
         g_isToCreateGameCrashFlag = false; // stop creating this file unnecessarily
-        
+
         LOGGER( 1, "( vote_manageEnd )  %d/%d < %d: %d", \
                 g_winLimitInteger, SERVER_GAME_CRASH_ACTION_RATIO_DIVISOR, g_totalTerroristsWins + g_totalCtWins, \
                 g_winLimitInteger / SERVER_GAME_CRASH_ACTION_RATIO_DIVISOR < g_totalTerroristsWins + g_totalCtWins )
-        
+
         generateGameCrashActionFilePath( gameCrashActionFilePath, charsmax( gameCrashActionFilePath ) );
         write_file( gameCrashActionFilePath, "Game Crash Action Flag File^n^nSee the cvar 'gal_game_crash_recreation'.^nDo not delete it." );
     }
-    
+
     // load runoff choices
     copy( runoffChoice[ 0 ], charsmax( runoffChoice[] ), g_votingMapNames[ g_arrayOfRunOffChoices[ 0 ] ] );
     copy( runoffChoice[ 1 ], charsmax( runoffChoice[] ), g_votingMapNames[ g_arrayOfRunOffChoices[ 1 ] ] );
-    
+
     LOGGER( 4, "  ( votedisplay ) g_isToRefreshVoteStatus: %i,  g_totalVoteOptions: %i, strlen( g_voteStatusClean ): %i", \
                                   g_isToRefreshVoteStatus,      g_totalVoteOptions,     strlen( g_voteStatusClean )  )
 }
@@ -311,7 +311,7 @@ stock configureServerStart
     {
         static formated_message[ MAX_BIG_BOSS_STRING ];
         vformat( formated_message, charsmax( formated_message ), message, 2 );
-        
+
         writeToTheDebugFile( DEBUGGER_OUTPUT_LOG_FILE_NAME, formated_message );
     }
 
@@ -326,15 +326,15 @@ stock test_loadVoteChoices_check( test_id, mapToCheck[], bool:isToBePresent = "a
 new const bool:g_dummy_value = false;
 static formated_message[ MAX_BIG_BOSS_STRING ];
 const formated_message;
-    
+
     new const bool:g_dummy_value = false;
     static formated_message[ MAX_BIG_BOSS_STRING ];
     const formated_message;
-    
+
     new bool:isMapPresent;
     new      currentIndex;
     new      errorMessage[ MAX_LONG_STRING ];
-    
+
 new const bool:g_dummy_value = false;
 static formated_message[ MAX_BIG_BOSS_STRING ];
 const formated_message;
@@ -342,9 +342,9 @@ const formated_message;
 new bool : isMapPresent ;
 new       currentIndex ;
 new       errorMessage [ MAX_LONG_STRING ];
-    
+
     fileDescriptor = fopen( mapFileListPath, "wt", partialNameAttempt );
-    
+
     if( mapToCheck[ 0 ] )
     {
         for( currentIndex = 0; currentIndex < sizeof g_votingMapNames; ++currentIndex )
@@ -354,7 +354,7 @@ new       errorMessage [ MAX_LONG_STRING ];
                 isMapPresent = true;
             }
         }
-        
+
         formatex( errorMessage, charsmax( errorMessage ),
                 "The map '%s' %s be present on the voting map menu.", mapToCheck, ( isToBePresent? "must to" : "MUST NOT to" ) );
         SET_TEST_FAILURE( test_id, isMapPresent != isToBePresent, errorMessage )
