@@ -396,6 +396,7 @@
             <key>scope</key>
             <string>
                 , doccomment,
+                , comment.block.python ,
                 , punctuation.definition.doccomment,
                 , comment.line.triple-slash,
             </string>
