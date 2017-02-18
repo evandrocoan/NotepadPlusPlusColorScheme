@@ -57,6 +57,9 @@
                 <string>#FF0000</string>
             </dict>
         </dict>
+
+
+        <!------------------ Bracket Highlighter Package theme ---------------------->
         <dict>
             <key>name</key>
             <string>Bracket Default</string>
@@ -145,6 +148,20 @@
                 <string>#F2777A</string>
             </dict>
         </dict>
+
+
+        <!------------------ Notepad-Plus-Plus theme ---------------------->
+        <dict>
+            <key>name</key>
+            <string>Variable background</string>
+            <key>scope</key>
+            <string>variable.other.normal.shell</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#FFF2D9</string>
+            </dict>
+        </dict>
         <dict>
             <key>name</key>
             <string>String</string>
@@ -163,7 +180,7 @@
             <key>name</key>
             <string>Number</string>
             <key>scope</key>
-            <string>constant.numeric</string>
+            <string>constant.numeric, variable.other.normal.shell</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -255,6 +272,9 @@
             <string>
                 , boldtext,
                 , keyword.command.dosbatch,
+                , variable.other.normal.shell,
+                , keyword.other.shell,
+                , support.function.builtin.shell,
             </string>
             <key>settings</key>
             <dict>
