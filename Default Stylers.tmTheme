@@ -155,7 +155,10 @@
             <key>name</key>
             <string>Variable background</string>
             <key>scope</key>
-            <string>variable.other.normal.shell</string>
+            <string>
+                , variable.other.normal.shell,
+                , variable.source.makefile,
+            </string>
             <key>settings</key>
             <dict>
                 <key>background</key>
@@ -180,7 +183,11 @@
             <key>name</key>
             <string>Number</string>
             <key>scope</key>
-            <string>constant.numeric, variable.other.normal.shell</string>
+            <string>
+                , constant.numeric,
+                , variable.other.normal.shell,
+                , variable.source.makefile,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -271,10 +278,13 @@
             <key>scope</key>
             <string>
                 , boldtext,
+                , entity.name.function.makefile,
                 , keyword.command.dosbatch,
                 , variable.other.normal.shell,
                 , keyword.other.shell,
                 , support.function.builtin.shell,
+                , variable.source.makefile,
+                , variable.other.makefile,
             </string>
             <key>settings</key>
             <dict>
@@ -339,6 +349,8 @@
             <string>
                 , function.definition - meta.preprocessor,
                 , function.name,
+                , variable.other.makefile,
+                , entity.name.function,
                 , entity.name.function.AmxxPawn,
                 , meta.tag.value,
             </string>
