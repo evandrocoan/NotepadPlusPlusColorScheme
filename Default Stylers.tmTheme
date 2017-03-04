@@ -278,6 +278,7 @@
             <key>scope</key>
             <string>
                 , boldtext,
+                , support.function.C99.c,
                 , entity.name.function.makefile,
                 , keyword.command.dosbatch,
                 , variable.other.normal.shell,
@@ -383,7 +384,8 @@
             <key>scope</key>
             <string>
                 , function.call,
-                , keyword.analysis.matlab,.
+                , keyword.analysis.matlab,
+                , meta.block.c++ meta.function-call.c++ - meta.group.c++ - meta.preprocessor,
                 , meta.function.python,
                 , meta.tag.any,
             </string>
@@ -536,7 +538,7 @@
             <key>scope</key>
             <string>
                 , storage.modifier,
-                , storage.type - meta.function.python - storage.type.class.python,
+                , storage.type - meta.function.python - storage.type.class.python - meta.preprocessor,
                 , variable.type.AmxxPawn,
             </string>
             <key>settings</key>
