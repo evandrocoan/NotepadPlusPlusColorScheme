@@ -278,6 +278,8 @@
             <key>scope</key>
             <string>
                 , boldtext,
+                , constant.language.registers.general-purpose ,
+                , source.asm.x86_64 entity.name.function,
                 , support.function.C99.c,
                 , entity.name.function.makefile,
                 , keyword.command.dosbatch,
