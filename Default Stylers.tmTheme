@@ -157,6 +157,7 @@
             <key>scope</key>
             <string>
                 , variable.other.normal.shell,
+                , meta.path.rust,
                 , variable.source.makefile,
             </string>
             <key>settings</key>
@@ -185,6 +186,7 @@
             <key>scope</key>
             <string>
                 , constant.numeric,
+                , meta.path.rust,
                 , variable.other.normal.shell,
                 , variable.source.makefile,
             </string>
@@ -198,7 +200,9 @@
             <key>name</key>
             <string>Regular expression</string>
             <key>scope</key>
-            <string>string.regexp</string>
+            <string>
+                , string.regexp,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -227,6 +231,7 @@
                 , keyword.control.import.python,
                 , storage.type.class.python,
                 , keyword.control - meta.preprocessor,
+                , keyword.other.rust,
                 , entity.name.tag,
                 , punctuation.definition.tag,
                 , variable.language.java,
@@ -281,10 +286,19 @@
                 , constant.language.registers.general-purpose ,
                 , source.asm.x86_64 entity.name.function,
                 , support.function.C99.c,
+                , meta.path.rust,
+                , keyword.other.rust,
+                , support.type.rust,
+                , entity.name.impl.rust,
+                , entity.name.struct.rust,
+                , entity.name.module.rust,
+                , entity.name.enum.rust,
+                , entity.name.function.rust,
                 , entity.other.attribute-name.table.toml,
                 , punctuation.definition.keyValuePair.toml,
                 , entity.other.attribute-name.table.array.toml,
                 , entity.name.function.makefile,
+                , support.function.rust,
                 , keyword.command.dosbatch,
                 , variable.other.normal.shell,
                 , keyword.other.shell,
@@ -303,6 +317,8 @@
             <string>Blue text</string>
             <key>scope</key>
             <string>
+                , support.type.rust,
+                , meta.function.return-type.rust,
                 , boldtext,
             </string>
             <key>settings</key>
@@ -315,7 +331,7 @@
             <key>name</key>
             <string>Keyword Other</string>
             <key>scope</key>
-            <string>keyword.other</string>
+            <string>keyword.other - keyword.other.documentation</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -340,6 +356,7 @@
             <string>
                 , class.exception,
                 , meta.inappropriate,
+                , meta.function.decorator.python,
                 , string.quoted.double.include,
             </string>
             <key>settings</key>
@@ -356,7 +373,7 @@
                 , function.definition - meta.preprocessor,
                 , function.name,
                 , variable.other.makefile,
-                , entity.name.function,
+                , entity.name.function.rust,
                 , entity.other.attribute-name.table.array.toml,
                 , meta.tag.table.toml,
                 , meta.tag.table.array.toml,
@@ -394,6 +411,11 @@
                 , function.call,
                 , keyword.analysis.matlab,
                 , meta.block.c++ meta.function-call.c++ - meta.group.c++ - meta.preprocessor,
+                , entity.name.struct.rust,
+                , entity.name.impl.rust,
+                , entity.name.module.rust,
+                , entity.name.enum.rust,
+                , support.macro.rust,
                 , meta.function.python,
                 , meta.tag.any,
             </string>
@@ -422,7 +444,7 @@
             <string>Comment</string>
             <key>scope</key>
             <string>
-                , comment,
+                , comment - comment.line.documentation - comment.block.documentation - comment.block.attribute.rust,
                 , keyword.command.rem.dosbatch,
                 , markup.inserted,
             </string>
@@ -434,11 +456,13 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Comment</string>
+            <string>Documentation Comment</string>
             <key>scope</key>
             <string>
                 , doccomment,
+                , comment.block.documentation,
                 , comment.block.python ,
+                , comment.line.documentation,
                 , punctuation.definition.doccomment,
                 , comment.line.triple-slash,
             </string>
@@ -467,6 +491,7 @@
             <key>scope</key>
             <string>
                 , meta.preprocessor,
+                , comment.block.attribute.rust,
                 , string.quoted.other.lt-gt.include,
                 , meta.diff.header,
                 , keyword.control.import - keyword.control.import.from.python,
@@ -522,7 +547,10 @@
             <key>name</key>
             <string>Tag</string>
             <key>scope</key>
-            <string>tag, declaration.tag</string>
+            <string>
+                , tag,
+                , declaration.tag,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -533,7 +561,7 @@
             <key>name</key>
             <string>Constant</string>
             <key>scope</key>
-            <string>constant</string>
+            <string>constant, variable.other.property.rust</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -559,7 +587,9 @@
             <key>name</key>
             <string>Class name</string>
             <key>scope</key>
-            <string>class.name</string>
+            <string>
+                , class.name,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
