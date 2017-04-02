@@ -325,6 +325,7 @@
             <string>
                 , support.type.rust,
                 , support.class.java,
+                , support.type.java,
                 , meta.function.return-type.rust,
                 , boldtext,
             </string>
