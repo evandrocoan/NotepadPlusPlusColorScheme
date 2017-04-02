@@ -277,6 +277,9 @@
                 <string>#000080</string>
             </dict>
         </dict>
+        <!--
+            `entity.name.function` is designed for: java, rust, makefile, AmxxPawn, preprocessor
+        -->
         <dict>
             <key>name</key>
             <string>Bold text</string>
@@ -286,18 +289,21 @@
                 , constant.language.registers.general-purpose ,
                 , source.asm.x86_64 entity.name.function,
                 , support.function.C99.c,
+                , keyword.other.import.java,
+                , keyword.other.package.java,
+                , entity.name.function - entity.name.function.python - entity.name.function.AmxxPawn,
                 , meta.path.rust,
                 , keyword.other.rust,
+                , variable.function.java,
                 , support.type.rust,
                 , entity.name.impl.rust,
+                , support.class.java,
                 , entity.name.struct.rust,
                 , entity.name.module.rust,
                 , entity.name.enum.rust,
-                , entity.name.function.rust,
                 , entity.other.attribute-name.table.toml,
                 , punctuation.definition.keyValuePair.toml,
                 , entity.other.attribute-name.table.array.toml,
-                , entity.name.function.makefile,
                 , support.function.rust,
                 , keyword.command.dosbatch,
                 , variable.other.normal.shell,
@@ -318,6 +324,7 @@
             <key>scope</key>
             <string>
                 , support.type.rust,
+                , support.class.java,
                 , meta.function.return-type.rust,
                 , boldtext,
             </string>
@@ -356,7 +363,10 @@
             <string>
                 , class.exception,
                 , meta.inappropriate,
+                , keyword.other.import.java,
+                , keyword.other.package.java,
                 , meta.function.decorator.python,
+                , storage.type.annotation.java,
                 , string.quoted.double.include,
             </string>
             <key>settings</key>
@@ -372,12 +382,11 @@
             <string>
                 , function.definition - meta.preprocessor,
                 , function.name,
+                , entity.name.function - entity.name.function.python,
                 , variable.other.makefile,
-                , entity.name.function.rust,
                 , entity.other.attribute-name.table.array.toml,
                 , meta.tag.table.toml,
                 , meta.tag.table.array.toml,
-                , entity.name.function.AmxxPawn,
                 , meta.tag.value,
             </string>
             <key>settings</key>
@@ -393,6 +402,7 @@
             <string>
                 , keyword.analysis.matlab,
                 , meta.function.call,
+                , variable.function.java,
                 , keyword.other.python,
                 , keyword.command,
                 , support.function - meta.preprocessor,
