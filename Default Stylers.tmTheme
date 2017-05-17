@@ -286,6 +286,8 @@
             <key>scope</key>
             <string>
                 , boldtext,
+                , markup.bold,
+                , meta.tag.value.bbcode,
                 , constant.language.registers.general-purpose ,
                 , source.asm.x86_64 entity.name.function,
                 , support.function.C99.c,
@@ -316,6 +318,32 @@
             <dict>
                 <key>fontStyle</key>
                 <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Underline text</string>
+            <key>scope</key>
+            <string>
+                , markup.underline,
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>underline</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Italic text</string>
+            <key>scope</key>
+            <string>
+                , markup.italic,
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
             </dict>
         </dict>
         <dict>
