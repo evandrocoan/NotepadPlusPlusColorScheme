@@ -166,12 +166,17 @@
                 <string>#FFF2D9</string>
             </dict>
         </dict>
+        <!--
+            @FixMethodOrder( MethodSorters.NAME_ASCENDING )
+            meta.annotation.java punctuation.definition.annotation.java
+         -->
         <dict>
             <key>name</key>
             <string>String</string>
             <key>scope</key>
             <string>
                 , string,
+                , punctuation.definition.annotation,
                 , punctuation.definition.string,
             </string>
             <key>settings</key>
@@ -404,6 +409,10 @@
                 <string>#990000</string>
             </dict>
         </dict>
+        <!--
+            @FixMethodOrder( MethodSorters.NAME_ASCENDING )
+            meta.annotation.identifier.java variable.annotation.java
+         -->
         <dict>
             <key>name</key>
             <string>Function Definition</string>
@@ -411,6 +420,7 @@
             <string>
                 , function.definition - meta.preprocessor,
                 , function.name,
+                , meta.annotation.identifier,
                 , entity.name.function - entity.name.function.python,
                 , variable.other.makefile,
                 , entity.other.attribute-name.table.array.toml,
