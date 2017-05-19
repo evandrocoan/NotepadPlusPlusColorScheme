@@ -59,7 +59,7 @@
         </dict>
 
 
-        <!------------------ Bracket Highlighter Package theme ---------------------->
+        <!-- Bracket Highlighter Package theme -->
         <dict>
             <key>name</key>
             <string>Bracket Default</string>
@@ -150,7 +150,7 @@
         </dict>
 
 
-        <!------------------ Notepad-Plus-Plus theme ---------------------->
+        <!-- Notepad-Plus-Plus theme -->
         <dict>
             <key>name</key>
             <string>Variable background</string>
