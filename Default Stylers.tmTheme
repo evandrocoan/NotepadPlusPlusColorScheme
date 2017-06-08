@@ -390,14 +390,18 @@
                 <string>italic</string>
             </dict>
         </dict>
+        <!-- support.class is for:
+                , support.class.java,
+                , support.class.builtin.js,
+                , support.class.js,
+         -->
         <dict>
             <key>name</key>
             <string>Blue text</string>
             <key>scope</key>
             <string>
                 , support.type.rust,
-                , support.class.java,
-                , support.class.builtin.js,
+                , support.class,
                 , meta.function.return-type.rust,
                 , boldtext,
             </string>
