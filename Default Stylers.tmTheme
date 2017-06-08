@@ -166,6 +166,21 @@
                 <string>#FFF2D9</string>
             </dict>
         </dict>
+        <dict>
+            <key>name</key>
+            <string>Bold This Keyword</string>
+            <key>scope</key>
+            <string>
+                , variable.language.this.js,
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+                <key>foreground</key>
+                <string>#990000</string>
+            </dict>
+        </dict>
         <!-- support.type used for CSS: source.less support.type.property-name.css -->
         <dict>
             <key>name</key>
@@ -382,6 +397,7 @@
             <string>
                 , support.type.rust,
                 , support.class.java,
+                , support.class.builtin.js,
                 , meta.function.return-type.rust,
                 , boldtext,
             </string>
