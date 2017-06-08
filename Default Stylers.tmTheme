@@ -166,6 +166,22 @@
                 <string>#FFF2D9</string>
             </dict>
         </dict>
+        <!-- support.type used for CSS: source.less support.type.property-name.css -->
+        <dict>
+            <key>name</key>
+            <string>CSS Property</string>
+            <key>scope</key>
+            <string>
+                , support.type,
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+                <key>foreground</key>
+                <string>#8080C0</string>
+            </dict>
+        </dict>
         <!--
             @FixMethodOrder( MethodSorters.NAME_ASCENDING )
             meta.annotation.java punctuation.definition.annotation.java
@@ -214,11 +230,16 @@
                 <string>#FF0080</string>
             </dict>
         </dict>
+        <!-- entity.other, used for CSS, source.less entity.other.attribute-name.class.css -->
         <dict>
             <key>name</key>
             <string>Tag</string>
             <key>scope</key>
-            <string>meta.tag, markup.deleted</string>
+            <string>
+                , meta.tag,
+                , entity.other,
+                , markup.deleted,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -283,7 +304,7 @@
             </dict>
         </dict>
         <!--
-            `entity.name.function` is designed for: java, rust, makefile, AmxxPawn, preprocessor
+            entity.name.function is designed for: java, rust, makefile, AmxxPawn, preprocessor
         -->
         <dict>
             <key>name</key>
@@ -306,7 +327,10 @@
                 , entity.name.impl.rust,
                 , support.class.java,
                 , entity.name.struct.rust,
+                , meta.property-value.css,
+                , keyword.other.unit.css,
                 , entity.name.module.rust,
+                , punctuation.definition.entity.css,
                 , entity.name.enum.rust,
                 , entity.other.attribute-name.table.toml,
                 , punctuation.definition.keyValuePair.toml,
@@ -358,7 +382,6 @@
             <string>
                 , support.type.rust,
                 , support.class.java,
-                , support.type.java,
                 , meta.function.return-type.rust,
                 , boldtext,
             </string>
@@ -383,7 +406,10 @@
             <key>name</key>
             <string>Identifier</string>
             <key>scope</key>
-            <string>constant.language</string>
+            <string>
+                , constant.language,
+                , support.constant.property-value.css,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -610,7 +636,10 @@
             <key>name</key>
             <string>Constant</string>
             <key>scope</key>
-            <string>constant, variable.other.property.rust</string>
+            <string>
+                , constant,
+                , variable.other.property.rust,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -649,7 +678,9 @@
             <key>name</key>
             <string>XML Declaration</string>
             <key>scope</key>
-            <string>tag.preprocessor.xml</string>
+            <string>
+                , tag.preprocessor.xml,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
