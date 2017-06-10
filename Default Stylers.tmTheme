@@ -340,7 +340,6 @@
                 , variable.function.java,
                 , support.type.rust,
                 , entity.name.impl.rust,
-                , support.class.java,
                 , entity.name.struct.rust,
                 , meta.property-value.css,
                 , keyword.other.unit.css,
