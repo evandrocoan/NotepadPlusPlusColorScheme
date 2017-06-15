@@ -153,17 +153,34 @@
         <!-- Notepad-Plus-Plus theme -->
         <dict>
             <key>name</key>
-            <string>Variable background</string>
+            <string>Variable Background</string>
             <key>scope</key>
             <string>
-                , variable.other.normal.shell,
                 , meta.path.rust,
-                , variable.source.makefile,
             </string>
             <key>settings</key>
             <dict>
                 <key>background</key>
                 <string>#FFF2D9</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Shell Variable with Background</string>
+            <key>scope</key>
+            <string>
+                , variable.source.makefile,
+                , variable.other.normal.shell,
+                , variable.other.readwrite.dosbatch,
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+                <key>background</key>
+                <string>#FFF2D9</string>
+                <key>foreground</key>
+                <string>#FF8000</string>
             </dict>
         </dict>
         <dict>
@@ -223,8 +240,6 @@
             <string>
                 , constant.numeric,
                 , meta.path.rust,
-                , variable.other.normal.shell,
-                , variable.source.makefile,
             </string>
             <key>settings</key>
             <dict>
@@ -351,10 +366,8 @@
                 , entity.other.attribute-name.table.array.toml,
                 , support.function.rust,
                 , keyword.command.dosbatch,
-                , variable.other.normal.shell,
                 , keyword.other.shell,
                 , support.function.builtin.shell,
-                , variable.source.makefile,
                 , variable.other.makefile,
             </string>
             <key>settings</key>
