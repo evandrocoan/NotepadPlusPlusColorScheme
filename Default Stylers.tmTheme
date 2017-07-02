@@ -290,6 +290,7 @@
                 , keyword.other.rust,
                 , entity.name.tag,
                 , punctuation.definition.tag,
+                , keyword.other.first_line_match.sublime-syntax,
                 , variable.language.java,
                 , constant.language.java,
                 , keyword.desktop,
@@ -351,9 +352,11 @@
                 , keyword.other.package.java,
                 , entity.name.function - entity.name.function.python - entity.name.function.AmxxPawn,
                 , meta.path.rust,
+                , constant.language.boolean.yaml,
                 , keyword.other.rust,
                 , variable.function.java,
                 , support.type.rust,
+                , keyword.other.match.sublime-syntax,
                 , entity.name.impl.rust,
                 , entity.name.struct.rust,
                 , meta.property-value.css,
@@ -499,6 +502,7 @@
             <string>
                 , keyword.analysis.matlab,
                 , meta.function.call,
+                , keyword.control.flow.push.sublime-syntax,
                 , variable.function.java,
                 , keyword.other.python,
                 , keyword.command,
@@ -662,6 +666,21 @@
             <dict>
                 <key>foreground</key>
                 <string>#0033CC</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bold Tag</string>
+            <key>scope</key>
+            <string>
+                , entity.name.context.sublime-syntax,
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E71A11</string>
+                <key>fontStyle</key>
+                <string>bold</string>
             </dict>
         </dict>
         <dict>
