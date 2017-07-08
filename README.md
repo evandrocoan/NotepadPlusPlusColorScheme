@@ -1,7 +1,7 @@
 Sublime 3 Notepad++ Theme
 ===============================
 
-For those who like <strong>the look & feel of Notepad++ but the awesomeness of Sublime Text</strong> &#10084;. 
+For those who like <strong>the look & feel of Notepad++ but the awesomeness of Sublime Text</strong> &#10084;.
 Then this is for you! See a improved tutorial on [Sublime Text AMXX Pawn Syntax and Notepad++ Theme](https://forums.alliedmods.net/showthread.php?t=287196).
 
 ![Imgur](http://i.imgur.com/iXk6Qpb.png)
@@ -42,7 +42,7 @@ git clone https://github.com/evandrocoan/SublimeNotepadPlusPlusTheme "Notepad++ 
 
 
 ___
-## Licence
+## License
 All files in this repository are released under GNU General Public License v3.0, unless stated otherwise.
 See [LICENSE](https://www.gnu.org/licenses/gpl-3.0.en.html) file for more information.
 
