@@ -170,6 +170,7 @@
             <key>scope</key>
             <string>
                 , variable.source.makefile,
+                , variable.parameter.dosbatch,
                 , variable.other.normal.shell,
                 , variable.other.readwrite.dosbatch,
             </string>
@@ -535,7 +536,7 @@
                 <key>foreground</key>
                 <string>#FF00FF</string>
             </dict>
-        </dict>
+        </dict><!--
         <dict>
             <key>name</key>
             <string>Variable</string>
@@ -549,7 +550,7 @@
                 <key>foreground</key>
                 <string>#000000</string>
             </dict>
-        </dict>
+        </dict> -->
         <dict>
             <key>name</key>
             <string>Comment</string>
