@@ -189,7 +189,7 @@
             <string>Bold This Keyword</string>
             <key>scope</key>
             <string>
-                , variable.language.this.js,
+                , variable.language.this,
             </string>
             <key>settings</key>
             <dict>
@@ -335,9 +335,6 @@
                 <string>#000080</string>
             </dict>
         </dict>
-        <!--
-            entity.name.function is designed for: java, rust, makefile, AmxxPawn, preprocessor
-        -->
         <dict>
             <key>name</key>
             <string>Bold text</string>
@@ -351,7 +348,10 @@
                 , support.function.C99.c,
                 , keyword.other.import.java,
                 , keyword.other.package.java,
-                , entity.name.function - entity.name.function.python - entity.name.function.AmxxPawn,
+                , entity.name.function.java,
+                , entity.name.function.rust,
+                , entity.name.function.makefile,
+                , entity.name.function.preprocessor,
                 , meta.path.rust,
                 , constant.language.boolean.yaml,
                 , keyword.other.rust,
@@ -417,6 +417,7 @@
             <key>scope</key>
             <string>
                 , support.type.rust,
+                , meta.object-literal,
                 , support.class,
                 , meta.function.return-type.rust,
                 , boldtext,
@@ -525,6 +526,7 @@
                 , meta.block.c++ meta.function-call.c++ - meta.group.c++ - meta.preprocessor,
                 , entity.name.struct.rust,
                 , entity.name.impl.rust,
+                , meta.block.ts entity.name.function.ts,
                 , entity.name.module.rust,
                 , entity.name.enum.rust,
                 , support.macro.rust,
@@ -757,7 +759,9 @@
             <key>name</key>
             <string>Tag Attribute</string>
             <key>scope</key>
-            <string>other.attribute-name</string>
+            <string>
+                , other.attribute-name,
+            </string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
