@@ -164,15 +164,25 @@
                 <string>#FFF2D9</string>
             </dict>
         </dict>
+        <!--
+            Types before removing the language type:
+
+            , variable.source.makefile,
+            , variable.parameter.dosbatch,
+            , variable.other.normal.shell,
+            , variable.other.special.shell,
+            , variable.other.readwrite.dosbatch,
+        -->
         <dict>
             <key>name</key>
             <string>Shell Variable with Background</string>
             <key>scope</key>
             <string>
-                , variable.source.makefile,
-                , variable.parameter.dosbatch,
-                , variable.other.normal.shell,
-                , variable.other.readwrite.dosbatch,
+                , variable.source,
+                , variable.parameter,
+                , variable.other.normal,
+                , variable.other.readwrite,
+                , variable.other.special,
             </string>
             <key>settings</key>
             <dict>
