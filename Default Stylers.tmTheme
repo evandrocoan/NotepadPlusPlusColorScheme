@@ -284,11 +284,14 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Classes</string>
+            <string>Classes, Boolean, Attributes, Units, Link Url</string>
             <key>scope</key>
             <string>
                 , entity.name.class,
                 , entity.name.type.class,
+                , entity.other.attribute-name.none,
+                , keyword.other.unit,
+                , meta.link,
             </string>
             <key>settings</key>
             <dict>
@@ -364,19 +367,6 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Boolean</string>
-            <key>scope</key>
-            <string>
-                , none,
-            </string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#F96A38</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
             <string>Tags</string>
             <key>scope</key>
             <string>
@@ -386,18 +376,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#CC342B</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Attributes</string>
-            <key>scope</key>
-            <string>
-                , entity.other.attribute-name.none, </string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#F96A38</string>
             </dict>
         </dict>
         <dict>
@@ -453,19 +431,6 @@
             <dict>
                 <key>fontStyle</key>
                 <string>bold italic</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Units</string>
-            <key>scope</key>
-            <string>
-                , keyword.other.unit,
-            </string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#F96A38</string>
             </dict>
         </dict>
         <dict>
@@ -568,19 +533,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#CC342B</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Link Url</string>
-            <key>scope</key>
-            <string>
-                , meta.link,
-            </string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#F96A38</string>
             </dict>
         </dict>
         <dict>
