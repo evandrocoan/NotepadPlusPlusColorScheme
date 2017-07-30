@@ -219,9 +219,11 @@
             <string>Punctuation</string>
             <key>scope</key>
             <string>
+                , punctuation.definition.image,
                 , punctuation.definition.variable,
                 , punctuation.definition.parameters,
                 , punctuation.definition.array,
+                , punctuation.definition.metadata,
             </string>
             <key>settings</key>
             <dict>
@@ -490,7 +492,9 @@
             <key>name</key>
             <string>Code</string>
             <key>scope</key>
-            <string>markup.raw.inline</string>
+            <string>
+                , markup.raw.inline,
+            </string>
             <key>settings</key>
             <dict/>
         </dict>
@@ -528,6 +532,8 @@
             <key>scope</key>
             <string>
                 , string.other.link,
+                , meta.link.inline.description,
+                , meta.image.inline,
             </string>
             <key>settings</key>
             <dict>
@@ -976,6 +982,7 @@
                 , entity.name.function.makefile,
                 , entity.name.function.preprocessor,
                 , meta.path.rust,
+                , markup.list.numbered.bullet,
                 , constant.language.boolean.yaml,
                 , keyword.other.rust,
                 , variable.function.java,
