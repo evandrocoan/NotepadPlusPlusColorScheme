@@ -704,7 +704,7 @@
                 <key>background</key>
                 <string>#CC342B</string>
                 <key>foreground</key>
-                <string>#ffffff</string>
+                <string>#ff0000</string>
             </dict>
         </dict>
         <dict>
@@ -734,7 +734,7 @@
                 <key>background</key>
                 <string>#3971ED</string>
                 <key>foreground</key>
-                <string>#ffffff</string>
+                <string>#0000ff</string>
             </dict>
         </dict>
         <dict>
