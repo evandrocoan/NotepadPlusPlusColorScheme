@@ -306,7 +306,7 @@
             <string>Classes</string>
             <key>scope</key>
             <string>
-                , meta.class,
+                , meta.class.none,
             </string>
             <key>settings</key>
             <dict>
@@ -702,7 +702,7 @@
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#CC342B</string>
+                <string>#b7cbf8</string>
                 <key>foreground</key>
                 <string>#ff0000</string>
             </dict>
@@ -732,7 +732,7 @@
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#3971ED</string>
+                <string>#E0857F</string>
                 <key>foreground</key>
                 <string>#0000ff</string>
             </dict>
