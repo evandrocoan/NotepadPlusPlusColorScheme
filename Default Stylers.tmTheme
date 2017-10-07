@@ -192,8 +192,7 @@
             <key>name</key>
             <string>Text</string>
             <key>scope</key>
-            <string>
-                , variable.parameter.function,
+            <string>variable.parameter.function
             </string>
             <key>settings</key>
             <dict>
@@ -205,8 +204,7 @@
             <key>name</key>
             <string>Comments</string>
             <key>scope</key>
-            <string>
-                , comment.none,
+            <string>comment.none
             </string>
             <key>settings</key>
             <dict>
@@ -218,12 +216,11 @@
             <key>name</key>
             <string>Punctuation</string>
             <key>scope</key>
-            <string>
-                , punctuation.definition.image,
-                , punctuation.definition.variable,
-                , punctuation.definition.parameters,
-                , punctuation.definition.array,
-                , punctuation.definition.metadata,
+            <string>punctuation.definition.image
+                , punctuation.definition.variable
+                , punctuation.definition.parameters
+                , punctuation.definition.array
+                , punctuation.definition.metadata
             </string>
             <key>settings</key>
             <dict>
@@ -235,8 +232,7 @@
             <key>name</key>
             <string>Delimiters</string>
             <key>scope</key>
-            <string>
-                , none,
+            <string>none
             </string>
             <key>settings</key>
             <dict>
@@ -249,8 +245,7 @@
             <string>Keywords</string>
             <key>scope</key>
             <string>keyword</string>
-            <key>
-                , settings.none,
+            <key>settings.none
             </key>
             <dict>
                 <key>foreground</key>
@@ -261,8 +256,7 @@
             <key>name</key>
             <string>Variables</string>
             <key>scope</key>
-            <string>
-                , variable.none,
+            <string>variable.none
             </string>
             <key>settings</key>
             <dict>
@@ -274,9 +268,8 @@
             <key>name</key>
             <string>Functions</string>
             <key>scope</key>
-            <string>
-                , meta.require,
-                , support.function.any-method,
+            <string>meta.require
+                , support.function.any-method
             </string>
             <key>settings</key>
             <dict>
@@ -288,12 +281,11 @@
             <key>name</key>
             <string>Classes, Boolean, Attributes, Units, Link Url</string>
             <key>scope</key>
-            <string>
-                , entity.name.class,
-                , entity.name.type.class,
-                , entity.other.attribute-name.none,
-                , keyword.other.unit,
-                , meta.link,
+            <string>entity.name.class
+                , entity.name.type.class
+                , entity.other.attribute-name.none
+                , keyword.other.unit
+                , meta.link
             </string>
             <key>settings</key>
             <dict>
@@ -305,8 +297,7 @@
             <key>name</key>
             <string>Classes</string>
             <key>scope</key>
-            <string>
-                , meta.class.none,
+            <string>meta.class.none
             </string>
             <key>settings</key>
             <dict>
@@ -318,8 +309,7 @@
             <key>name</key>
             <string>Methods</string>
             <key>scope</key>
-            <string>
-                , keyword.other.special-method,
+            <string>keyword.other.special-method
             </string>
             <key>settings</key>
             <dict>
@@ -331,8 +321,7 @@
             <key>name</key>
             <string>Storage</string>
             <key>scope</key>
-            <string>
-                , storage.none,
+            <string>storage.none
             </string>
             <key>settings</key>
             <dict>
@@ -344,8 +333,7 @@
             <key>name</key>
             <string>Support</string>
             <key>scope</key>
-            <string>
-                , support.function.none,
+            <string>support.function.none
             </string>
             <key>settings</key>
             <dict>
@@ -357,9 +345,8 @@
             <key>name</key>
             <string>Strings, Inherited Class</string>
             <key>scope</key>
-            <string>
-                , constant.other.symbol,
-                , entity.other.inherited-class,
+            <string>constant.other.symbol
+                , entity.other.inherited-class
             </string>
             <key>settings</key>
             <dict>
@@ -371,8 +358,7 @@
             <key>name</key>
             <string>Tags</string>
             <key>scope</key>
-            <string>
-                , entity.name.tag.none,
+            <string>entity.name.tag.none
             </string>
             <key>settings</key>
             <dict>
@@ -384,9 +370,8 @@
             <key>name</key>
             <string>Attribute IDs</string>
             <key>scope</key>
-            <string>
-                , entity.other.attribute-name.id,
-                , punctuation.definition.entity,
+            <string>entity.other.attribute-name.id
+                , punctuation.definition.entity
             </string>
             <key>settings</key>
             <dict>
@@ -398,8 +383,7 @@
             <key>name</key>
             <string>Selector</string>
             <key>scope</key>
-            <string>
-                , meta.selector,
+            <string>meta.selector
             </string>
             <key>settings</key>
             <dict>
@@ -411,8 +395,7 @@
             <key>name</key>
             <string>Headings</string>
             <key>scope</key>
-            <string>
-                , markup.heading,
+            <string>markup.heading
             </string>
             <key>settings</key>
             <dict>
@@ -426,8 +409,7 @@
             <key>name</key>
             <string>Italic in Headings</string>
             <key>scope</key>
-            <string>
-                , markup.heading markup.italic,
+            <string>markup.heading markup.italic
             </string>
             <key>settings</key>
             <dict>
@@ -439,9 +421,8 @@
             <key>name</key>
             <string>Bold And Italic</string>
             <key>scope</key>
-            <string>
-                , markup.bold markup.italic,
-                , markup.italic markup.bold,
+            <string>markup.bold markup.italic
+                , markup.italic markup.bold
             </string>
             <key>settings</key>
             <dict>
@@ -453,8 +434,7 @@
             <key>name</key>
             <string>Code</string>
             <key>scope</key>
-            <string>
-                , markup.raw,
+            <string>markup.raw
             </string>
             <key>settings</key>
             <dict>
@@ -466,8 +446,7 @@
             <key>name</key>
             <string>Manual line break</string>
             <key>scope</key>
-            <string>
-                , meta.dummy.line-break,
+            <string>meta.dummy.line-break
             </string>
             <key>settings</key>
             <dict>
@@ -479,8 +458,7 @@
             <key>name</key>
             <string>List Items</string>
             <key>scope</key>
-            <string>
-                , meta.paragraph.list,
+            <string>meta.paragraph.list
             </string>
             <key>settings</key>
             <dict>
@@ -492,8 +470,7 @@
             <key>name</key>
             <string>Code</string>
             <key>scope</key>
-            <string>
-                , markup.raw.inline,
+            <string>markup.raw.inline
             </string>
             <key>settings</key>
             <dict/>
@@ -502,8 +479,7 @@
             <key>name</key>
             <string>Fenced Code Block</string>
             <key>scope</key>
-            <string>
-                , markup.raw.block.fenced,
+            <string>markup.raw.block.fenced
             </string>
             <key>settings</key>
             <dict>
@@ -515,10 +491,9 @@
             <key>name</key>
             <string>Fenced Code Block</string>
             <key>scope</key>
-            <string>
-                , punctuation.definition.raw.markdown,
-                , punctuation.definition.fenced.markdown,
-                , variable.language.fenced.markdown,
+            <string>punctuation.definition.raw.markdown
+                , punctuation.definition.fenced.markdown
+                , variable.language.fenced.markdown
             </string>
             <key>settings</key>
             <dict>
@@ -530,10 +505,9 @@
             <key>name</key>
             <string>Link Text</string>
             <key>scope</key>
-            <string>
-                , string.other.link,
-                , meta.link.inline.description,
-                , meta.image.inline,
+            <string>string.other.link
+                , meta.link.inline.description
+                , meta.image.inline
             </string>
             <key>settings</key>
             <dict>
@@ -545,8 +519,7 @@
             <key>name</key>
             <string>Lists</string>
             <key>scope</key>
-            <string>
-                , markup.list,
+            <string>markup.list
             </string>
             <key>settings</key>
             <dict>
@@ -558,8 +531,7 @@
             <key>name</key>
             <string>List Punctuation Definition</string>
             <key>scope</key>
-            <string>
-                , punctuation.definition.list_item.markdown,
+            <string>punctuation.definition.list_item.markdown
             </string>
             <key>settings</key>
             <dict>
@@ -573,8 +545,7 @@
             <key>name</key>
             <string>Quotes</string>
             <key>scope</key>
-            <string>
-                , markup.quote,
+            <string>markup.quote
             </string>
             <key>settings</key>
             <dict>
@@ -586,8 +557,7 @@
             <key>name</key>
             <string>Blockquote Punctuation Definition</string>
             <key>scope</key>
-            <string>
-                , punctuation.definition.blockquote.markdown,
+            <string>punctuation.definition.blockquote.markdown
             </string>
             <key>settings</key>
             <dict>
@@ -599,8 +569,7 @@
             <key>name</key>
             <string>Separator</string>
             <key>scope</key>
-            <string>
-                , meta.separator,
+            <string>meta.separator
             </string>
             <key>settings</key>
             <dict>
@@ -614,8 +583,7 @@
             <key>name</key>
             <string>Inserted</string>
             <key>scope</key>
-            <string>
-                , markup.inserted,
+            <string>markup.inserted
             </string>
             <key>settings</key>
             <dict>
@@ -627,8 +595,7 @@
             <key>name</key>
             <string>Deleted</string>
             <key>scope</key>
-            <string>
-                , markup.deleted,
+            <string>markup.deleted
             </string>
             <key>settings</key>
             <dict>
@@ -640,8 +607,7 @@
             <key>name</key>
             <string>Changed</string>
             <key>scope</key>
-            <string>
-                , markup.changed,
+            <string>markup.changed
             </string>
             <key>settings</key>
             <dict>
@@ -653,8 +619,7 @@
             <key>name</key>
             <string>Markup strikethrough</string>
             <key>scope</key>
-            <string>
-                , markup.strikethrough,
+            <string>markup.strikethrough
             </string>
             <key>settings</key>
             <dict>
@@ -666,10 +631,9 @@
             <key>name</key>
             <string>Markup Link, Escape Characters</string>
             <key>scope</key>
-            <string>
-                , markup.underline.link,
-                , constant.other.color,
-                , constant.character.escape,
+            <string>markup.underline.link
+                , constant.other.color
+                , constant.character.escape
             </string>
             <key>settings</key>
             <dict>
@@ -683,8 +647,7 @@
             <key>name</key>
             <string>Embedded</string>
             <key>scope</key>
-            <string>
-                , variable.interpolation,
+            <string>variable.interpolation
             </string>
             <key>settings</key>
             <dict>
@@ -696,8 +659,7 @@
             <key>name</key>
             <string>Illegal</string>
             <key>scope</key>
-            <string>
-                , invalid.illegal,
+            <string>invalid.illegal
             </string>
             <key>settings</key>
             <dict>
@@ -711,8 +673,7 @@
             <key>name</key>
             <string>Broken</string>
             <key>scope</key>
-            <string>
-                , invalid.broken,
+            <string>invalid.broken
             </string>
             <key>settings</key>
             <dict>
@@ -726,8 +687,7 @@
             <key>name</key>
             <string>Deprecated</string>
             <key>scope</key>
-            <string>
-                , invalid.deprecated,
+            <string>invalid.deprecated
             </string>
             <key>settings</key>
             <dict>
@@ -741,8 +701,7 @@
             <key>name</key>
             <string>Unimplemented</string>
             <key>scope</key>
-            <string>
-                , invalid.unimplemented,
+            <string>invalid.unimplemented
             </string>
             <key>settings</key>
             <dict>
@@ -775,8 +734,7 @@
             <key>name</key>
             <string>Variable Background</string>
             <key>scope</key>
-            <string>
-                , meta.path.rust,
+            <string>meta.path.rust
             </string>
             <key>settings</key>
             <dict>
@@ -787,22 +745,21 @@
         <!--
             Types before removing the language type:
 
-            , variable.source.makefile,
-            , variable.parameter.dosbatch,
-            , variable.other.normal.shell,
-            , variable.other.special.shell,
+            , variable.source.makefile
+            , variable.parameter.dosbatch
+            , variable.other.normal.shell
+            , variable.other.special.shell
             , variable.other.readwrite.dosbatch,
         -->
         <dict>
             <key>name</key>
             <string>Shell Variable with Background</string>
             <key>scope</key>
-            <string>
-                , variable.source,
-                , variable.parameter,
-                , variable.other.normal,
-                , variable.other.readwrite,
-                , variable.other.special,
+            <string>variable.source
+                , variable.parameter
+                , variable.other.normal
+                , variable.other.readwrite
+                , variable.other.special
             </string>
             <key>settings</key>
             <dict>
@@ -818,8 +775,7 @@
             <key>name</key>
             <string>Bold This Keyword</string>
             <key>scope</key>
-            <string>
-                , variable.language.this,
+            <string>variable.language.this
             </string>
             <key>settings</key>
             <dict>
@@ -834,8 +790,7 @@
             <key>name</key>
             <string>CSS Property</string>
             <key>scope</key>
-            <string>
-                , support.type,
+            <string>support.type
             </string>
             <key>settings</key>
             <dict>
@@ -853,10 +808,9 @@
             <key>name</key>
             <string>String</string>
             <key>scope</key>
-            <string>
-                , string,
-                , punctuation.definition.annotation,
-                , punctuation.definition.string,
+            <string>string
+                , punctuation.definition.annotation
+                , punctuation.definition.string
             </string>
             <key>settings</key>
             <dict>
@@ -868,9 +822,8 @@
             <key>name</key>
             <string>Number</string>
             <key>scope</key>
-            <string>
-                , constant.numeric,
-                , meta.path.rust,
+            <string>constant.numeric
+                , meta.path.rust
             </string>
             <key>settings</key>
             <dict>
@@ -882,8 +835,7 @@
             <key>name</key>
             <string>Regular expression</string>
             <key>scope</key>
-            <string>
-                , string.regexp,
+            <string>string.regexp
             </string>
             <key>settings</key>
             <dict>
@@ -896,9 +848,8 @@
             <key>name</key>
             <string>Tag</string>
             <key>scope</key>
-            <string>
-                , meta.tag,
-                , entity.other,
+            <string>meta.tag
+                , entity.other
             </string>
             <key>settings</key>
             <dict>
@@ -910,23 +861,22 @@
             <key>name</key>
             <string>Keyword Common</string>
             <key>scope</key>
-            <string>
-                , keyword.common,
-                , constant.language.python,
-                , storage.type.function.python,
-                , keyword.control.import.python,
-                , storage.type.class.python,
-                , keyword.control - meta.preprocessor,
-                , keyword.other.rust,
-                , entity.name.tag,
-                , punctuation.definition.tag,
-                , keyword.other.first_line_match.sublime-syntax,
-                , variable.language.java,
-                , constant.language.java,
-                , keyword.desktop,
-                , keyword.mathematics,
-                , meta.diff.range,
-                , keyword.operator.word,
+            <string>keyword.common
+                , constant.language.python
+                , storage.type.function.python
+                , keyword.control.import.python
+                , storage.type.class.python
+                , keyword.control - meta.preprocessor
+                , keyword.other.rust
+                , entity.name.tag
+                , punctuation.definition.tag
+                , keyword.other.first_line_match.sublime-syntax
+                , variable.language.java
+                , constant.language.java
+                , keyword.desktop
+                , keyword.mathematics
+                , meta.diff.range
+                , keyword.operator.word
             </string>
             <key>settings</key>
             <dict>
@@ -940,21 +890,20 @@
             <key>name</key>
             <string>Keyword Operator</string>
             <key>scope</key>
-            <string>
-                , keyword.operator - meta.preprocessor,
-                , keyword.brackets,
-                , punctuation.definition.parameters,
-                , punctuation.definition.arguments,
-                , punctuation.definition.inheritance,
-                , punctuation.section.brackets,
-                , punctuation.section.parens,
-                , punctuation.definition.group - meta.preprocessor,
-                , punctuation.definition.block - meta.preprocessor,
-                , punctuation.definition.brackets - meta.preprocessor,
-                , punctuation.terminator - meta.preprocessor,
-                , punctuation.accessor - meta.preprocessor,
-                , punctuation.separator - meta.preprocessor,
-                , punctuation.definition.parens,
+            <string>keyword.operator - meta.preprocessor
+                , keyword.brackets
+                , punctuation.definition.parameters
+                , punctuation.definition.arguments
+                , punctuation.definition.inheritance
+                , punctuation.section.brackets
+                , punctuation.section.parens
+                , punctuation.definition.group - meta.preprocessor
+                , punctuation.definition.block - meta.preprocessor
+                , punctuation.definition.brackets - meta.preprocessor
+                , punctuation.terminator - meta.preprocessor
+                , punctuation.accessor - meta.preprocessor
+                , punctuation.separator - meta.preprocessor
+                , punctuation.definition.parens
             </string>
             <key>settings</key>
             <dict>
@@ -968,41 +917,40 @@
             <key>name</key>
             <string>Bold text</string>
             <key>scope</key>
-            <string>
-                , boldtext,
-                , markup.bold,
-                , meta.tag.value.bbcode,
-                , constant.language.registers.general-purpose ,
-                , source.asm.x86_64 entity.name.function,
-                , support.function.C99.c,
-                , keyword.other.import.java,
-                , keyword.other.package.java,
-                , entity.name.function.java,
-                , entity.name.function.rust,
-                , entity.name.function.makefile,
-                , entity.name.function.preprocessor,
-                , meta.path.rust,
-                , markup.list.numbered.bullet,
-                , constant.language.boolean.yaml,
-                , keyword.other.rust,
-                , variable.function.java,
-                , support.type.rust,
-                , keyword.other.match.sublime-syntax,
-                , entity.name.impl.rust,
-                , entity.name.struct.rust,
-                , meta.property-value.css,
-                , keyword.other.unit.css,
-                , entity.name.module.rust,
-                , punctuation.definition.entity.css,
-                , entity.name.enum.rust,
-                , entity.other.attribute-name.table.toml,
-                , punctuation.definition.keyValuePair.toml,
-                , entity.other.attribute-name.table.array.toml,
-                , support.function.rust,
-                , keyword.command.dosbatch,
-                , keyword.other.shell,
-                , support.function.builtin.shell,
-                , variable.other.makefile,
+            <string>boldtext
+                , markup.bold
+                , meta.tag.value.bbcode
+                , constant.language.registers.general-purpose
+                , source.asm.x86_64 entity.name.function
+                , support.function.C99.c
+                , keyword.other.import.java
+                , keyword.other.package.java
+                , entity.name.function.java
+                , entity.name.function.rust
+                , entity.name.function.makefile
+                , entity.name.function.preprocessor
+                , meta.path.rust
+                , markup.list.numbered.bullet
+                , constant.language.boolean.yaml
+                , keyword.other.rust
+                , variable.function.java
+                , support.type.rust
+                , keyword.other.match.sublime-syntax
+                , entity.name.impl.rust
+                , entity.name.struct.rust
+                , meta.property-value.css
+                , keyword.other.unit.css
+                , entity.name.module.rust
+                , punctuation.definition.entity.css
+                , entity.name.enum.rust
+                , entity.other.attribute-name.table.toml
+                , punctuation.definition.keyValuePair.toml
+                , entity.other.attribute-name.table.array.toml
+                , support.function.rust
+                , keyword.command.dosbatch
+                , keyword.other.shell
+                , support.function.builtin.shell
+                , variable.other.makefile
             </string>
             <key>settings</key>
             <dict>
@@ -1014,8 +962,7 @@
             <key>name</key>
             <string>Underline text</string>
             <key>scope</key>
-            <string>
-                , markup.underline,
+            <string>markup.underline
             </string>
             <key>settings</key>
             <dict>
@@ -1027,8 +974,7 @@
             <key>name</key>
             <string>Italic text</string>
             <key>scope</key>
-            <string>
-                , markup.italic,
+            <string>markup.italic
             </string>
             <key>settings</key>
             <dict>
@@ -1037,20 +983,19 @@
             </dict>
         </dict>
         <!-- support.class is for:
-                , support.class.java,
-                , support.class.builtin.js,
+                , support.class.java
+                , support.class.builtin.js
                 , support.class.js,
          -->
         <dict>
             <key>name</key>
             <string>Blue text</string>
             <key>scope</key>
-            <string>
-                , support.type.rust,
-                , meta.object-literal,
-                , support.class,
-                , meta.function.return-type.rust,
-                , boldtext,
+            <string>support.type.rust
+                , meta.object-literal
+                , support.class
+                , meta.function.return-type.rust
+                , boldtext
             </string>
             <key>settings</key>
             <dict>
@@ -1073,9 +1018,8 @@
             <key>name</key>
             <string>Identifier</string>
             <key>scope</key>
-            <string>
-                , constant.language,
-                , support.constant.property-value.css,
+            <string>constant.language
+                , support.constant.property-value.css
             </string>
             <key>settings</key>
             <dict>
@@ -1087,14 +1031,13 @@
             <key>name</key>
             <string>Exception</string>
             <key>scope</key>
-            <string>
-                , class.exception,
-                , meta.inappropriate,
-                , keyword.other.import.java,
-                , keyword.other.package.java,
-                , meta.function.decorator.python,
-                , storage.type.annotation.java,
-                , string.quoted.double.include,
+            <string>class.exception
+                , meta.inappropriate
+                , keyword.other.import.java
+                , keyword.other.package.java
+                , meta.function.decorator.python
+                , storage.type.annotation.java
+                , string.quoted.double.include
             </string>
             <key>settings</key>
             <dict>
@@ -1110,16 +1053,15 @@
             <key>name</key>
             <string>Function Definition</string>
             <key>scope</key>
-            <string>
-                , function.definition - meta.preprocessor,
-                , function.name,
-                , meta.annotation.identifier,
-                , entity.name.function - entity.name.function.python,
-                , variable.other.makefile,
-                , entity.other.attribute-name.table.array.toml,
-                , meta.tag.table.toml,
-                , meta.tag.table.array.toml,
-                , meta.tag.value,
+            <string>function.definition - meta.preprocessor
+                , function.name
+                , meta.annotation.identifier
+                , entity.name.function - entity.name.function.python
+                , variable.other.makefile
+                , entity.other.attribute-name.table.array.toml
+                , meta.tag.table.toml
+                , meta.tag.table.array.toml
+                , meta.tag.value
             </string>
             <key>settings</key>
             <dict>
@@ -1131,14 +1073,13 @@
             <key>name</key>
             <string>Meta Function</string>
             <key>scope</key>
-            <string>
-                , keyword.analysis.matlab,
-                , meta.function.call,
-                , keyword.control.flow.push.sublime-syntax,
-                , variable.function.java,
-                , keyword.other.python,
-                , keyword.command,
-                , support.function - meta.preprocessor,
+            <string>keyword.analysis.matlab
+                , meta.function.call
+                , keyword.control.flow.push.sublime-syntax
+                , variable.function.java
+                , keyword.other.python
+                , keyword.command
+                , support.function - meta.preprocessor
             </string>
             <key>settings</key>
             <dict>
@@ -1150,18 +1091,17 @@
             <key>name</key>
             <string>Function Call</string>
             <key>scope</key>
-            <string>
-                , function.call,
-                , keyword.analysis.matlab,
-                , meta.block.c++ meta.function-call.c++ - meta.group.c++ - meta.preprocessor,
-                , entity.name.struct.rust,
-                , entity.name.impl.rust,
-                , meta.block.ts entity.name.function.ts,
-                , entity.name.module.rust,
-                , entity.name.enum.rust,
-                , support.macro.rust,
-                , meta.function.python,
-                , meta.tag.any,
+            <string>function.call
+                , keyword.analysis.matlab
+                , meta.block.c++ meta.function-call.c++ - meta.group.c++ - meta.preprocessor
+                , entity.name.struct.rust
+                , entity.name.impl.rust
+                , meta.block.ts entity.name.function.ts
+                , entity.name.module.rust
+                , entity.name.enum.rust
+                , support.macro.rust
+                , meta.function.python
+                , meta.tag.any
             </string>
             <key>settings</key>
             <dict>
@@ -1173,23 +1113,21 @@
             <key>name</key>
             <string>Variable</string>
             <key>scope</key>
-            <string>
-                , variable.parameter,
-                , variable.definition,
+            <string>variable.parameter
+                , variable.definition
             </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
                 <string>#000000</string>
             </dict>
-        </dict> -->
+        </dict>-->
         <dict>
             <key>name</key>
             <string>Comment</string>
             <key>scope</key>
-            <string>
-                , comment - comment.line.documentation - comment.block.documentation - comment.block.attribute.rust,
-                , keyword.command.rem.dosbatch,
+            <string>comment - comment.line.documentation - comment.block.documentation - comment.block.attribute.rust
+                , keyword.command.rem.dosbatch
             </string>
             <key>settings</key>
             <dict>
@@ -1201,13 +1139,12 @@
             <key>name</key>
             <string>Documentation Comment</string>
             <key>scope</key>
-            <string>
-                , doccomment,
-                , comment.block.documentation,
-                , comment.block.python ,
-                , comment.line.documentation,
-                , punctuation.definition.doccomment,
-                , comment.line.triple-slash,
+            <string>doccomment
+                , comment.block.documentation
+                , comment.block.python
+                , comment.line.documentation
+                , punctuation.definition.doccomment
+                , comment.line.triple-slash
             </string>
             <key>settings</key>
             <dict>
@@ -1232,13 +1169,12 @@
             <key>name</key>
             <string>Preprocessor</string>
             <key>scope</key>
-            <string>
-                , meta.preprocessor,
-                , comment.block.attribute.rust,
-                , string.quoted.other.lt-gt.include,
-                , meta.diff.header,
-                , keyword.control.import - keyword.control.import.from.python,
-                , entity.name.function.preprocessor,
+            <string>meta.preprocessor
+                , comment.block.attribute.rust
+                , string.quoted.other.lt-gt.include
+                , meta.diff.header
+                , keyword.control.import - keyword.control.import.from.python
+                , entity.name.function.preprocessor
             </string>
             <key>settings</key>
             <dict>
@@ -1252,9 +1188,8 @@
             <key>name</key>
             <string>Brace</string>
             <key>scope</key>
-            <string>
-                , punctuation.section.embedded,
-                , brace.html,
+            <string>punctuation.section.embedded
+                , brace.html
             </string>
             <key>settings</key>
             <dict>
@@ -1290,9 +1225,8 @@
             <key>name</key>
             <string>Tag</string>
             <key>scope</key>
-            <string>
-                , tag,
-                , declaration.tag,
+            <string>tag
+                , declaration.tag
             </string>
             <key>settings</key>
             <dict>
@@ -1304,8 +1238,7 @@
             <key>name</key>
             <string>Bold Tag</string>
             <key>scope</key>
-            <string>
-                , entity.name.context.sublime-syntax,
+            <string>entity.name.context.sublime-syntax
             </string>
             <key>settings</key>
             <dict>
@@ -1319,9 +1252,8 @@
             <key>name</key>
             <string>Constant</string>
             <key>scope</key>
-            <string>
-                , constant,
-                , variable.other.property.rust,
+            <string>constant
+                , variable.other.property.rust
             </string>
             <key>settings</key>
             <dict>
@@ -1333,10 +1265,9 @@
             <key>name</key>
             <string>Storage</string>
             <key>scope</key>
-            <string>
-                , storage.modifier,
-                , storage.type - meta.function.python - storage.type.class.python - meta.preprocessor,
-                , variable.type.AmxxPawn,
+            <string>storage.modifier
+                , storage.type - meta.function.python - storage.type.class.python - meta.preprocessor
+                , variable.type.AmxxPawn
             </string>
             <key>settings</key>
             <dict>
@@ -1348,8 +1279,7 @@
             <key>name</key>
             <string>Class name</string>
             <key>scope</key>
-            <string>
-                , class.name,
+            <string>class.name
             </string>
             <key>settings</key>
             <dict>
@@ -1361,8 +1291,7 @@
             <key>name</key>
             <string>XML Declaration</string>
             <key>scope</key>
-            <string>
-                , tag.preprocessor.xml,
+            <string>tag.preprocessor.xml
             </string>
             <key>settings</key>
             <dict>
@@ -1374,9 +1303,8 @@
             <key>name</key>
             <string>User-defined constant</string>
             <key>scope</key>
-            <string>
-                , constant.character,
-                , constant.other,
+            <string>constant.character
+                , constant.other
             </string>
             <key>settings</key>
             <dict>
@@ -1388,8 +1316,7 @@
             <key>name</key>
             <string>Tag Attribute</string>
             <key>scope</key>
-            <string>
-                , other.attribute-name,
+            <string>other.attribute-name
             </string>
             <key>settings</key>
             <dict>
