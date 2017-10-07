@@ -893,7 +893,7 @@
             <string>keyword.operator - meta.preprocessor
                 , keyword.brackets
                 , punctuation.section
-                , punctuation.definition - meta.preprocessor
+                , punctuation.definition - meta.preprocessor - comment
                 , punctuation.terminator - meta.preprocessor
                 , punctuation.accessor - meta.preprocessor
                 , punctuation.separator - meta.preprocessor
