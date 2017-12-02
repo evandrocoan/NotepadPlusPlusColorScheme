@@ -1,13 +1,14 @@
 Sublime 3 Notepad++ Theme
 ===============================
 
-For those who like <strong>the look & feel of Notepad++ but the awesomeness of Sublime Text</strong> &#10084;.
+For those who like <strong>the look & feel of Notepad++ but the awesomeness of Sublime Text</strong>.
 Then this is for you! See a improved tutorial on [Sublime Text AMXX Pawn Syntax and Notepad++ Theme](https://forums.alliedmods.net/showthread.php?t=287196).
 
-![Imgur](http://i.imgur.com/iXk6Qpb.png)
+![Imgur](https://i.imgur.com/lo4R0wE.png)
+![Imgur](https://i.imgur.com/FDPmctP.png)
 
-![Imgur](http://i.imgur.com/BXfaFSv.png)
-
+<!-- Album within all sample images -->
+<!-- https://imgur.com/a/EiQWi -->
 
 
 ___
