@@ -1132,11 +1132,9 @@
             <key>name</key>
             <string>Documentation Comment</string>
             <key>scope</key>
-            <string>doccomment
-                , comment.block.documentation
+            <string>comment.block.documentation
                 , comment.block.python
                 , comment.line.documentation
-                , punctuation.definition.doccomment
                 , comment.line.triple-slash
             </string>
             <key>settings</key>
