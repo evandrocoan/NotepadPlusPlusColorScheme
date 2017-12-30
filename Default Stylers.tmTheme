@@ -60,10 +60,10 @@
                 <string>#1d1f21</string>
                 <key>shadowWidth</key>
                 <string>42</string>
-                <key>bracketsOptions</key>
-                <string>underline</string>
                 <key>misspelling</key>
                 <string>#FF0000</string>
+                <key>bracketsOptions</key>
+                <string>underline</string>
                 <key>bracketsForeground</key>
                 <string>#FF0000</string>
                 <key>bracketContentsOptions</key>
