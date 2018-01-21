@@ -1324,7 +1324,7 @@
             <key>name</key>
             <string>SublimeLinter Error</string>
             <key>scope</key>
-            <string>sublimelinter.mark.error</string>
+            <string>sublimelinter.mark.error, markup.error</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -1335,7 +1335,7 @@
             <key>name</key>
             <string>SublimeLinter Gutter Mark</string>
             <key>scope</key>
-            <string>sublimelinter.gutter-mark</string>
+            <string>sublimelinter.gutter-mark, markup.info</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -1346,7 +1346,7 @@
             <key>name</key>
             <string>SublimeLinter Warning</string>
             <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
+            <string>sublimelinter.mark.warning, markup.warning</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
