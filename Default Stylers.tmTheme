@@ -835,7 +835,7 @@
             <key>scope</key>
             <string>function.call
                 , keyword.analysis.matlab
-                , meta.method-call - meta.group.c++ - meta.preprocessor
+                , meta.function-call - meta.group - meta.preprocessor
                 , entity.name.struct.rust
                 , entity.name.struct.rust
                 , entity.name.impl.rust
@@ -1027,7 +1027,7 @@
             <string>Tag Attribute</string>
             <key>scope</key>
             <string>other.attribute-name
-                , meta.function-call.c++ - meta.group.c++ - meta.preprocessor
+                , meta.method-call - meta.group - meta.preprocessor
             </string>
             <key>settings</key>
             <dict>
