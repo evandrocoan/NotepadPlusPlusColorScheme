@@ -835,7 +835,7 @@
             <key>scope</key>
             <string>function.call
                 , keyword.analysis.matlab
-                , meta.function-call - meta.group - meta.preprocessor
+                , meta.function-call - meta.group - meta.preprocessor - meta.function-call.arguments
                 , entity.name.struct.rust
                 , entity.name.struct.rust
                 , entity.name.impl.rust
