@@ -852,6 +852,21 @@
                 <string>#FF00FF</string>
             </dict>
         </dict>
+        <!-- See https://github.com/evandrocoan/NotepadPlusPlusColorScheme/issues/2
+             Python highlighting inconsistent
+         -->
+        <dict>
+            <key>name</key>
+            <string>Python Function Call</string>
+            <key>scope</key>
+            <string>meta.function-call - meta.preprocessor - meta.function-call.arguments
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF00FF</string>
+            </dict>
+        </dict>
         <dict>
             <key>name</key>
             <string>Comment</string>
