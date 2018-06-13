@@ -817,6 +817,7 @@
             <key>scope</key>
             <string>keyword.analysis.matlab
                 , meta.function.call
+                , meta.annotation.python
                 , keyword.control.flow.push.sublime-syntax
                 , variable.function.java
                 , keyword.other.python
