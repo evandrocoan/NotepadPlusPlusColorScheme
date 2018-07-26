@@ -11,13 +11,6 @@ Then this is for you! See a improved tutorial on [Sublime Text AMXX Pawn Syntax 
 <!-- https://imgur.com/a/EiQWi -->
 
 
-___
-## Notes
-
-It only works well for the [Sublime Text AMXX Pawn Syntax](https://github.com/evandrocoan/SublimeAmxxPawn).
-
-
-
 ## Installation
 
 1. Download & Install Sublime 3.
