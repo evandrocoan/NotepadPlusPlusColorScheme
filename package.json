@@ -1,0 +1,33 @@
+{
+    "name": "theme-notepadplusplus",
+    "displayName": "NotepadPlusPlus Theme",
+    "description": "This is almost an exact replica of the Notepad++ default theme.",
+    "icon": "icon.png",
+    "version": "1.0.0",
+    "publisher": "evandrocoan",
+    "homepage": "https://github.com/evandrocoan/NotepadPlusPlusColorScheme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/evandrocoan/NotepadPlusPlusColorScheme.git"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "notepad plus plus",
+        "notepad++",
+        "theme"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "NotepadPlusPlus Theme",
+                "uiTheme": "vs",
+                "path": "./Default Stylers.tmTheme"
+            }
+        ]
+    }
+}
