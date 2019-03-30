@@ -2,7 +2,7 @@ Sublime 3 Notepad++ Theme
 ===============================
 
 For those who like <strong>the look & feel of Notepad++ but the awesomeness of Sublime Text</strong>.
-Then this is for you! See a improved tutorial on [Sublime Text AMXX Pawn Syntax and Notepad++ Theme](https://forums.alliedmods.net/showthread.php?t=287196).
+Then this is for you! See a tutorial on [Sublime Text AMXX Pawn Syntax and Notepad++ Theme](https://forums.alliedmods.net/showthread.php?t=287196).
 
 ![Imgur](https://i.imgur.com/lo4R0wE.png)
 ![Imgur](https://i.imgur.com/FDPmctP.png)
@@ -22,17 +22,15 @@ Then this is for you! See a improved tutorial on [Sublime Text AMXX Pawn Syntax 
 
 1. Go to <i>Preferences > Browse Packages...</i> and clone this theme into there.
 <pre><code>
-git clone https://github.com/evandrocoan/SublimeNotepadPlusPlusTheme "Notepad++ Theme"
+git clone https://github.com/evandrocoan/SublimeNotepadPlusPlusTheme "Notepad++ Color Scheme"
 </code></pre>
-1. Add the following into <i>Preferences > Settings > User</i>
+1. Add change the following on your <i>Preferences > Settings</i>
 <pre><code>
     "color_scheme": "Your Current Color Scheme"
 -->
     "color_scheme": "Packages/Notepad++ Theme/Default Stylers.tmTheme"
 </code></pre>
 1. Restart Sublime
-1. Not clear enough? See the full installation video guide [How To Install Sublime Notepad Theme](https://vid.me/DXOc).
-
 
 
 ___
