@@ -957,7 +957,7 @@
             <key>name</key>
             <string>Bold Tag</string>
             <key>scope</key>
-            <string>entity.name.context.sublime-syntax
+            <string>entity.name.context
             </string>
             <key>settings</key>
             <dict>
