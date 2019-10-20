@@ -958,6 +958,7 @@
             <string>Bold Tag</string>
             <key>scope</key>
             <string>entity.name.context
+                , storage.function
             </string>
             <key>settings</key>
             <dict>
