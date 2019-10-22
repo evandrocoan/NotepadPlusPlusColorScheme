@@ -1041,7 +1041,7 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Tag Attribute</string>
+            <string>Tag Attribute Bold</string>
             <key>scope</key>
             <string>other.attribute-name
                 , meta.method-call - meta.group - meta.preprocessor
