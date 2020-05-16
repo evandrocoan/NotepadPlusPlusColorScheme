@@ -822,7 +822,7 @@
                 , variable.function.java
                 , keyword.other.python
                 , keyword.command
-                , support.function - meta.preprocessor
+                , support.function - meta.preprocessor - support.function.call
             </string>
             <key>settings</key>
             <dict>
