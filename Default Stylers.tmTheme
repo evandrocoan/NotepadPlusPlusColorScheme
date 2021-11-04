@@ -573,6 +573,7 @@
             <string>Keyword Common</string>
             <key>scope</key>
             <string>keyword.common
+                , keyword.declaration.function
                 , constant.language.python
                 , storage.type.function.python
                 , keyword.control.import.python
