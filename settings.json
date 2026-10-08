@@ -1,6 +1,18 @@
 {
     "tags": [
-        "3144",
-        "3999"
+        {
+            "ref": "st-build-3144",
+            "sublime_text": "<=3144",
+            "python_versions": [
+                "3.3"
+            ]
+        },
+        {
+            "ref": "st-build-3999",
+            "sublime_text": "3145 - 3999",
+            "python_versions": [
+                "3.3"
+            ]
+        }
     ]
 }
